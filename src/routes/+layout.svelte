@@ -24,7 +24,6 @@
 
 	//Dark or Ligth
 	import { LightSwitch } from '@skeletonlabs/skeleton';
-	export const prerender = true;
 </script>
 
 <!-- App Shell -->
