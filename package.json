@@ -47,6 +47,7 @@
   "dependencies": {
     "@floating-ui/dom": "1.6.3",
     "@maptiler/sdk": "^1.2.1",
+    "apexcharts": "^3.47.0",
     "bertin": "^1.8.5",
     "d3": "^7.9.0",
     "d3-fetch": "^3.0.1",

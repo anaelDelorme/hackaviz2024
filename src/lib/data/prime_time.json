@@ -1,0 +1,194 @@
+[
+  {
+    "jeux": "Olympiques",
+    "discipline_regroup": "Athlétisme",
+    "nb_sessions": 21,
+    "nb_sessions_pt": 9,
+    "part_prime_time": 42.857142857142854,
+    "part_prime_time_label": "43 %"
+  },
+  {
+    "jeux": "Olympiques",
+    "discipline_regroup": "Autre sport",
+    "nb_sessions": 27,
+    "nb_sessions_pt": 4,
+    "part_prime_time": 14.814814814814815,
+    "part_prime_time_label": "15 %"
+  },
+  {
+    "jeux": "Olympiques",
+    "discipline_regroup": "Cyclisme",
+    "nb_sessions": 16,
+    "nb_sessions_pt": 2,
+    "part_prime_time": 12.5,
+    "part_prime_time_label": "12 %"
+  },
+  {
+    "jeux": "Olympiques",
+    "discipline_regroup": "Cérémonie",
+    "nb_sessions": 2,
+    "nb_sessions_pt": 2,
+    "part_prime_time": 100,
+    "part_prime_time_label": "100 %"
+  },
+  {
+    "jeux": "Olympiques",
+    "discipline_regroup": "Gymnastique",
+    "nb_sessions": 21,
+    "nb_sessions_pt": 7,
+    "part_prime_time": 33.333333333333336,
+    "part_prime_time_label": "33 %"
+  },
+  {
+    "jeux": "Olympiques",
+    "discipline_regroup": "Sport aquatique",
+    "nb_sessions": 40,
+    "nb_sessions_pt": 14,
+    "part_prime_time": 35,
+    "part_prime_time_label": "35 %"
+  },
+  {
+    "jeux": "Olympiques",
+    "discipline_regroup": "Sport collectif",
+    "nb_sessions": 343,
+    "nb_sessions_pt": 136,
+    "part_prime_time": 39.650145772594755,
+    "part_prime_time_label": "40 %"
+  },
+  {
+    "jeux": "Olympiques",
+    "discipline_regroup": "Sport d'eau",
+    "nb_sessions": 34,
+    "nb_sessions_pt": 0,
+    "part_prime_time": 0,
+    "part_prime_time_label": "0 %"
+  },
+  {
+    "jeux": "Olympiques",
+    "discipline_regroup": "Sport de combat",
+    "nb_sessions": 87,
+    "nb_sessions_pt": 32,
+    "part_prime_time": 36.7816091954023,
+    "part_prime_time_label": "37 %"
+  },
+  {
+    "jeux": "Olympiques",
+    "discipline_regroup": "Sport de glisse/freestyle",
+    "nb_sessions": 18,
+    "nb_sessions_pt": 2,
+    "part_prime_time": 11.11111111111111,
+    "part_prime_time_label": "11 %"
+  },
+  {
+    "jeux": "Olympiques",
+    "discipline_regroup": "Sport de raquette",
+    "nb_sessions": 96,
+    "nb_sessions_pt": 23,
+    "part_prime_time": 23.958333333333332,
+    "part_prime_time_label": "24 %"
+  },
+  {
+    "jeux": "Olympiques",
+    "discipline_regroup": "Sport de tir ou de précision",
+    "nb_sessions": 47,
+    "nb_sessions_pt": 2,
+    "part_prime_time": 4.25531914893617,
+    "part_prime_time_label": "4 %"
+  },
+  {
+    "jeux": "Olympiques",
+    "discipline_regroup": "Sport mixte",
+    "nb_sessions": 8,
+    "nb_sessions_pt": 1,
+    "part_prime_time": 12.5,
+    "part_prime_time_label": "12 %"
+  },
+  {
+    "jeux": "Paralympiques",
+    "discipline_regroup": "Athlétisme",
+    "nb_sessions": 19,
+    "nb_sessions_pt": 9,
+    "part_prime_time": 47.36842105263158,
+    "part_prime_time_label": "47 %"
+  },
+  {
+    "jeux": "Paralympiques",
+    "discipline_regroup": "Autre sport",
+    "nb_sessions": 11,
+    "nb_sessions_pt": 4,
+    "part_prime_time": 36.36363636363637,
+    "part_prime_time_label": "36 %"
+  },
+  {
+    "jeux": "Paralympiques",
+    "discipline_regroup": "Cyclisme",
+    "nb_sessions": 8,
+    "nb_sessions_pt": 0,
+    "part_prime_time": 0,
+    "part_prime_time_label": "0 %"
+  },
+  {
+    "jeux": "Paralympiques",
+    "discipline_regroup": "Cérémonie",
+    "nb_sessions": 2,
+    "nb_sessions_pt": 2,
+    "part_prime_time": 100,
+    "part_prime_time_label": "100 %"
+  },
+  {
+    "jeux": "Paralympiques",
+    "discipline_regroup": "Sport aquatique",
+    "nb_sessions": 20,
+    "nb_sessions_pt": 10,
+    "part_prime_time": 50,
+    "part_prime_time_label": "50 %"
+  },
+  {
+    "jeux": "Paralympiques",
+    "discipline_regroup": "Sport collectif",
+    "nb_sessions": 89,
+    "nb_sessions_pt": 44,
+    "part_prime_time": 49.438202247191015,
+    "part_prime_time_label": "49 %"
+  },
+  {
+    "jeux": "Paralympiques",
+    "discipline_regroup": "Sport d'eau",
+    "nb_sessions": 6,
+    "nb_sessions_pt": 0,
+    "part_prime_time": 0,
+    "part_prime_time_label": "0 %"
+  },
+  {
+    "jeux": "Paralympiques",
+    "discipline_regroup": "Sport de combat",
+    "nb_sessions": 22,
+    "nb_sessions_pt": 8,
+    "part_prime_time": 36.36363636363637,
+    "part_prime_time_label": "36 %"
+  },
+  {
+    "jeux": "Paralympiques",
+    "discipline_regroup": "Sport de raquette",
+    "nb_sessions": 47,
+    "nb_sessions_pt": 20,
+    "part_prime_time": 42.5531914893617,
+    "part_prime_time_label": "43 %"
+  },
+  {
+    "jeux": "Paralympiques",
+    "discipline_regroup": "Sport de tir ou de précision",
+    "nb_sessions": 40,
+    "nb_sessions_pt": 13,
+    "part_prime_time": 32.5,
+    "part_prime_time_label": "32 %"
+  },
+  {
+    "jeux": "Paralympiques",
+    "discipline_regroup": "Sport mixte",
+    "nb_sessions": 2,
+    "nb_sessions_pt": 0,
+    "part_prime_time": 0,
+    "part_prime_time_label": "0 %"
+  }
+]

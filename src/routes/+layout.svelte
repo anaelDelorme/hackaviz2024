@@ -1,7 +1,9 @@
 <script lang="ts">
 	import '../app.postcss';
-	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
-
+	import { AppShell, AppBar, popup } from '@skeletonlabs/skeleton';
+	import type { SubmitFunction } from '@sveltejs/kit';
+	import { storeTheme } from '$lib/stores/stores';
+	import { onMount } from 'svelte';
 	// Highlight JS
 	import hljs from 'highlight.js/lib/core';
 	import 'highlight.js/styles/github-dark.css';
@@ -24,10 +26,63 @@
 
 	//Dark or Ligth
 	import { LightSwitch } from '@skeletonlabs/skeleton';
+
+	//Choose theme
+const themes = [
+		{ type: 'skeleton', name: 'Skeleton', icon: '💀' },
+		{ type: 'wintry', name: 'Wintry', icon: '🌨️' },
+		{ type: 'modern', name: 'Modern', icon: '🤖' },
+		{ type: 'rocket', name: 'Rocket', icon: '🚀' },
+		{ type: 'seafoam', name: 'Seafoam', icon: '🧜‍♀️' },
+		{ type: 'vintage', name: 'Vintage', icon: '📺' },
+		{ type: 'sahara', name: 'Sahara', icon: '🏜️' },
+		{ type: 'hamlindigo', name: 'Hamlindigo', icon: '👔' },
+		{ type: 'gold-nouveau', name: 'Gold Nouveau', icon: '💫' },
+		{ type: 'crimson', name: 'Crimson', icon: '⭕' }
+		// { type: 'seasonal', name: 'Seasonal', icon: '🎆' }
+		// { type: 'test', name: 'Test', icon: '🚧' },
+	];
+
+	let selectedTheme = '';
+  let isOpen = false;
+
+  onMount(() => {
+    const currentTheme = document.body.getAttribute('data-theme');
+    selectedTheme = currentTheme || themes[0].type;
+  });
+
+  const toggleList = () => {
+    isOpen = !isOpen;
+  };
+
+  const handleThemeChange = (event) => {
+    const theme = event.target.value;
+
+    if (theme) {
+      document.body.setAttribute('data-theme', theme);
+      $storeTheme = theme;
+      isOpen = false;
+    }
+  };
+
+  const handleOutsideClick = (event) => {
+    if (!event.target.closest('.theme-picker')) {
+      isOpen = false;
+    }
+  };
+
+  onMount(() => {
+    window.addEventListener('click', handleOutsideClick);
+
+    return () => {
+      window.removeEventListener('click', handleOutsideClick);
+    };
+  });
 </script>
 <svelte:head>
 	<title>Hackaviz 2024</title>
 	<meta name="description" content="hackaviz 2024 sur les jeux de Paris." />
+	
 </svelte:head>
 <!-- App Shell -->
 <AppShell>
@@ -38,8 +93,34 @@
 				<strong class="text-xl uppercase">Hackaviz 2024</strong>
 				<img src="olympics.svg" alt="Olympics" class="ml-2 w-10 h-10" />
 			</svelte:fragment>
-			<svelte:fragment slot="trail">
-				<LightSwitch />
+			<svelte:fragment slot="trail" >
+				<div class="theme-picker">
+					<button class="btn hover:variant-soft-primary" use:popup={{ event: 'click', target: 'theme', closeQuery: 'a[href]' }}>
+						<i class="fa-solid fa-palette text-lg md:!hidden" />
+						<span class="hidden md:inline-block">Changer de thème</span>
+						<i class="fa-solid fa-caret-down opacity-50" />
+					</button>
+					<div class="card p-4 w-60 shadow-xl" data-popup="theme" >
+						<div class="space-y-4">
+							<section class="flex justify-between items-center">
+								<h6 class="h6">Mode</h6>
+								<LightSwitch />
+							</section>
+							<hr />
+							<nav class="list-nav p-4 -m-4 max-h-64 lg:max-h-[500px] overflow-y-auto">
+								<ul>
+								  {#each themes as { type, name, icon }}
+									<li>
+									  <button on:click={() => handleThemeChange({ target: { value: type } })}>
+										{icon} {name}
+									  </button>
+									</li>
+								  {/each}
+								</ul>
+							</nav>
+						</div>
+				  </div>
+				</div>
 				<a
 					class="btn btn-sm variant-ghost-surface"
 					href="https://github.com/anaelDelorme/hackaviz2024"

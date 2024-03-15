@@ -1,0 +1,344 @@
+[
+  {
+    "lieu": "Arena Bercy",
+    "n": 1542,
+    "plus_pres": 83,
+    "plus_loin": 1498,
+    "nom_plus_pres": "Levy Restaurants France",
+    "capacite": 15000,
+    "ratio": 9.727626459143968
+  },
+  {
+    "lieu": "Arena Champ-de-Mars",
+    "n": 1410,
+    "plus_pres": 184,
+    "plus_loin": 1499,
+    "nom_plus_pres": "Comptoir Paris Marais",
+    "capacite": 8356,
+    "ratio": 5.926241134751773
+  },
+  {
+    "lieu": "Arena Paris Nord",
+    "n": 23,
+    "plus_pres": 379,
+    "plus_loin": 1478,
+    "nom_plus_pres": "Horeto-Rest Expo",
+    "capacite": 6000,
+    "ratio": 260.8695652173913
+  },
+  {
+    "lieu": "Arena Paris Sud",
+    "n": 695,
+    "plus_pres": 154,
+    "plus_loin": 1499,
+    "nom_plus_pres": "Esak",
+    "capacite": 12000,
+    "ratio": 17.26618705035971
+  },
+  {
+    "lieu": "Arena Paris Sud 1",
+    "n": 695,
+    "plus_pres": 154,
+    "plus_loin": 1499,
+    "nom_plus_pres": "Esak",
+    "capacite": 9000,
+    "ratio": 12.949640287769784
+  },
+  {
+    "lieu": "Arena Paris Sud 6",
+    "n": 695,
+    "plus_pres": 154,
+    "plus_loin": 1499,
+    "nom_plus_pres": "Esak",
+    "capacite": 7800,
+    "ratio": 11.223021582733812
+  },
+  {
+    "lieu": "Arena Porte de La Chapelle",
+    "n": 949,
+    "plus_pres": 213,
+    "plus_loin": 1499,
+    "nom_plus_pres": "Bougie",
+    "capacite": 6850,
+    "ratio": 7.218124341412013
+  },
+  {
+    "lieu": "Centre aquatique",
+    "n": 464,
+    "plus_pres": 263,
+    "plus_loin": 1497,
+    "nom_plus_pres": "Te - Createur D'instants",
+    "capacite": 5000,
+    "ratio": 10.775862068965518
+  },
+  {
+    "lieu": "Château de Versailles",
+    "n": 5,
+    "plus_pres": 1053,
+    "plus_loin": 1390,
+    "nom_plus_pres": "Latino",
+    "capacite": 15000,
+    "ratio": 3000
+  },
+  {
+    "lieu": "Clichy-sous-Bois",
+    "n": 164,
+    "plus_pres": 258,
+    "plus_loin": 1499,
+    "nom_plus_pres": "Oums",
+    "capacite": "NA",
+    "ratio": "NA"
+  },
+  {
+    "lieu": "Colline d'Elancourt",
+    "n": 32,
+    "plus_pres": 491,
+    "plus_loin": 1480,
+    "nom_plus_pres": "La Vendemmia",
+    "capacite": 15000,
+    "ratio": 468.75
+  },
+  {
+    "lieu": "Concorde",
+    "n": 3126,
+    "plus_pres": 125,
+    "plus_loin": 1499,
+    "nom_plus_pres": "Petit Farmers",
+    "capacite": 37000,
+    "ratio": 11.836212412028152
+  },
+  {
+    "lieu": "Golf national",
+    "n": 4,
+    "plus_pres": 368,
+    "plus_loin": 1250,
+    "nom_plus_pres": "Lca",
+    "capacite": 32720,
+    "ratio": 8180
+  },
+  {
+    "lieu": "Grand Palais",
+    "n": 2489,
+    "plus_pres": 129,
+    "plus_loin": 1499,
+    "nom_plus_pres": "Musiam Paris",
+    "capacite": 7250,
+    "ratio": 2.9128163921253516
+  },
+  {
+    "lieu": "Hôtel de ville-Invalides",
+    "n": 5133,
+    "plus_pres": 26,
+    "plus_loin": 1499,
+    "nom_plus_pres": "Ssp Paris",
+    "capacite": "NA",
+    "ratio": "NA"
+  },
+  {
+    "lieu": "Invalides",
+    "n": 2161,
+    "plus_pres": 105,
+    "plus_loin": 1499,
+    "nom_plus_pres": "Clemelo",
+    "capacite": 8000,
+    "ratio": 3.7019898195279963
+  },
+  {
+    "lieu": "Invalides-Pont Alexandre-III",
+    "n": 2451,
+    "plus_pres": 33,
+    "plus_loin": 1499,
+    "nom_plus_pres": "Pro Bono Publico",
+    "capacite": 9000,
+    "ratio": 3.6719706242350063
+  },
+  {
+    "lieu": "Marina de Marseille",
+    "n": 114,
+    "plus_pres": 96,
+    "plus_loin": 1498,
+    "nom_plus_pres": "J'passe La Troisieme",
+    "capacite": 12262,
+    "ratio": 107.56140350877193
+  },
+  {
+    "lieu": "Parc des Princes",
+    "n": 245,
+    "plus_pres": 200,
+    "plus_loin": 1474,
+    "nom_plus_pres": "Jo",
+    "capacite": 47926,
+    "ratio": 195.61632653061224
+  },
+  {
+    "lieu": "Paris La Défense Arena",
+    "n": 511,
+    "plus_pres": 100,
+    "plus_loin": 1499,
+    "nom_plus_pres": "Topivo",
+    "capacite": 17000,
+    "ratio": 33.268101761252446
+  },
+  {
+    "lieu": "Pont Alexandre-III",
+    "n": 2451,
+    "plus_pres": 33,
+    "plus_loin": 1499,
+    "nom_plus_pres": "Pro Bono Publico",
+    "capacite": 1000,
+    "ratio": 0.4079967360261118
+  },
+  {
+    "lieu": "Site d'escalade",
+    "n": 163,
+    "plus_pres": 230,
+    "plus_loin": 1498,
+    "nom_plus_pres": "Tipik - Creol",
+    "capacite": 6000,
+    "ratio": 36.809815950920246
+  },
+  {
+    "lieu": "Stade BMX",
+    "n": 129,
+    "plus_pres": 219,
+    "plus_loin": 1491,
+    "nom_plus_pres": "Societe D'exploitation Et De Restauration De Montigny",
+    "capacite": 3000,
+    "ratio": 23.25581395348837
+  },
+  {
+    "lieu": "Stade de Bordeaux",
+    "n": 7,
+    "plus_pres": 688,
+    "plus_loin": 1307,
+    "nom_plus_pres": "Paloma",
+    "capacite": 42000,
+    "ratio": 6000
+  },
+  {
+    "lieu": "Stade de France",
+    "n": 462,
+    "plus_pres": 204,
+    "plus_loin": 1499,
+    "nom_plus_pres": "Stadium",
+    "capacite": 77083,
+    "ratio": 166.84632034632034
+  },
+  {
+    "lieu": "Stade de la Beaujoire",
+    "n": 40,
+    "plus_pres": 221,
+    "plus_loin": 1426,
+    "nom_plus_pres": "Antalya 44",
+    "capacite": 37473,
+    "ratio": 936.825
+  },
+  {
+    "lieu": "Stade de Lyon",
+    "n": 55,
+    "plus_pres": 271,
+    "plus_loin": 1481,
+    "nom_plus_pres": "Brasserie Des Lumieres",
+    "capacite": 59186,
+    "ratio": 1076.1090909090908
+  },
+  {
+    "lieu": "Stade de Marseille",
+    "n": 390,
+    "plus_pres": 131,
+    "plus_loin": 1497,
+    "nom_plus_pres": "Soc Restauration De Promotion",
+    "capacite": 67394,
+    "ratio": 172.8051282051282
+  },
+  {
+    "lieu": "Stade de Nice",
+    "n": 50,
+    "plus_pres": 170,
+    "plus_loin": 1469,
+    "nom_plus_pres": "Flor'el",
+    "capacite": 36178,
+    "ratio": 723.56
+  },
+  {
+    "lieu": "Stade Geoffroy-Guichard",
+    "n": 78,
+    "plus_pres": 91,
+    "plus_loin": 1492,
+    "nom_plus_pres": "Brasserie Du Stade",
+    "capacite": 41965,
+    "ratio": 538.0128205128206
+  },
+  {
+    "lieu": "Stade nautique de Vaires-sur-Marne - Bassin eaux calmes",
+    "n": 41,
+    "plus_pres": 889,
+    "plus_loin": 1475,
+    "nom_plus_pres": "O'palace Pizza",
+    "capacite": 24000,
+    "ratio": 585.3658536585366
+  },
+  {
+    "lieu": "Stade nautique-Bassin eau vive",
+    "n": 41,
+    "plus_pres": 889,
+    "plus_loin": 1475,
+    "nom_plus_pres": "O'palace Pizza",
+    "capacite": 12000,
+    "ratio": 292.6829268292683
+  },
+  {
+    "lieu": "Stade Pierre-Mauroy",
+    "n": 146,
+    "plus_pres": 203,
+    "plus_loin": 1494,
+    "nom_plus_pres": "Le Village Du Panini",
+    "capacite": 27000,
+    "ratio": 184.93150684931507
+  },
+  {
+    "lieu": "Stade Roland-Garros",
+    "n": 141,
+    "plus_pres": 217,
+    "plus_loin": 1496,
+    "nom_plus_pres": "Le Pavillon Des Princes",
+    "capacite": 14962,
+    "ratio": 106.11347517730496
+  },
+  {
+    "lieu": "Stade tour Eiffel",
+    "n": 1498,
+    "plus_pres": 107,
+    "plus_loin": 1498,
+    "nom_plus_pres": "Eiffel Est",
+    "capacite": 12860,
+    "ratio": 8.584779706275034
+  },
+  {
+    "lieu": "Stade Yves-du-Manoir",
+    "n": 136,
+    "plus_pres": 312,
+    "plus_loin": 1470,
+    "nom_plus_pres": "Mobile Crepes",
+    "capacite": 15000,
+    "ratio": 110.29411764705883
+  },
+  {
+    "lieu": "Trocadéro",
+    "n": 1521,
+    "plus_pres": 92,
+    "plus_loin": 1499,
+    "nom_plus_pres": "Elv",
+    "capacite": 3349,
+    "ratio": 2.2018408941485865
+  },
+  {
+    "lieu": "Vélodrome national",
+    "n": 129,
+    "plus_pres": 130,
+    "plus_loin": 1480,
+    "nom_plus_pres": "Societe D'exploitation Et De Restauration De Montigny",
+    "capacite": 5000,
+    "ratio": 38.75968992248062
+  }
+]
