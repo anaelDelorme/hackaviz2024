@@ -95,9 +95,10 @@ const themes = [
 			</svelte:fragment>
 			<svelte:fragment slot="trail" >
 				<div class="theme-picker">
+				
 					<button class="btn hover:variant-soft-primary" use:popup={{ event: 'click', target: 'theme', closeQuery: 'a[href]' }}>
 						<i class="fa-solid fa-palette text-lg md:!hidden" />
-						<span class="hidden md:inline-block">Changer de thème</span>
+						<img src="theme.png" alt="Theme Icon" class="w-6 h-6" /><span class="hidden md:inline-block">Changer de thème</span>
 						<i class="fa-solid fa-caret-down opacity-50" />
 					</button>
 					<div class="card p-4 w-60 shadow-xl" data-popup="theme" >
@@ -121,13 +122,14 @@ const themes = [
 						</div>
 				  </div>
 				</div>
+				
 				<a
-					class="btn btn-sm variant-ghost-surface"
+					
 					href="https://github.com/anaelDelorme/hackaviz2024"
 					target="_blank"
 					rel="noreferrer"
 				>
-					GitHub
+				<img src="github.png" alt="Github Icon" class="w-6 h-6" />
 				</a>
 			</svelte:fragment>
 		</AppBar>

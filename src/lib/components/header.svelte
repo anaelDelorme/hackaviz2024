@@ -91,11 +91,16 @@
 		<!-- Theme -->
 		<div>
 			<!-- trigger -->
-			<button class="btn hover:variant-soft-primary" use:popup={{ event: 'click', target: 'theme', closeQuery: 'a[href]' }}>
-				<i class="fa-solid fa-palette text-lg md:!hidden" />
-				<span class="hidden md:inline-block">Theme</span>
-				<i class="fa-solid fa-caret-down opacity-50" />
-			</button>
+			<div class="relative">
+				<button class="btn hover:variant-soft-primary md:hidden" use:popup={{ event: 'click', target: 'theme', closeQuery: 'a[href]' }}>
+					<i class="fa-solid fa-palette text-lg" />
+				</button>
+				<button class="btn hover:variant-soft-primary hidden md:inline-block" use:popup={{ event: 'click', target: 'theme', closeQuery: 'a[href]' }}>
+					<i class="fa-solid fa-palette text-lg" />
+					<span class="ml-1">Theme</span>
+					<i class="fa-solid fa-caret-down opacity-50 ml-1" />
+				</button>
+			</div>
 			<!-- popup -->
 			<div class="card p-4 w-60 shadow-xl" data-popup="theme">
 				<div class="space-y-4">
