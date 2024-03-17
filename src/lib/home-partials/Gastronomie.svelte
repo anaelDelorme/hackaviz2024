@@ -8,7 +8,7 @@
   
     const dispatch = createEventDispatcher();
   
-    let selectedLieu = ''; // Lieu sélectionné
+    let selectedLieu = 'Stade tour Eiffel'; // Lieu sélectionné
     let lieuInfo = {}; // Informations sur le lieu sélectionné
   
     // Fonction pour mettre à jour les informations du lieu sélectionné
@@ -32,8 +32,8 @@
   <div class=' mx-4 lg:mx-12'>
     <br/>
     <br/>
-    <h1 class="h1">
-      <span class="bg-gradient-to-br from-primary-800 to-primary-400 bg-clip-text text-transparent box-decoration-clone">La France, capitale de la Gastronomie ?</span>
+    <h1 class="h2">
+      <span class="bg-gradient-to-br from-primary-800 to-primary-400 bg-clip-text text-transparent box-decoration-clone">La France, championne de la Gastronomie ?</span>
     </h1>
     <br />
     <div class="grid grid-cols-4 gap-4  text-center">
@@ -41,7 +41,11 @@
       <select class="select bg-primary-50" on:change={handleSelectChange}>
         <option value="">Choisir un lieu</option>
         {#each lieux as lieu}
-          <option value={lieu}>{lieu}</option>
+          {#if lieu === "Stade tour Eiffel"} 
+                      <option selected value={lieu}>{lieu}</option>
+          {:else}
+            <option value={lieu}>{lieu}</option>
+           {/if}
         {/each}
       </select>
   

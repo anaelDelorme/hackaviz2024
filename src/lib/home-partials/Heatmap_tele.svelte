@@ -4,8 +4,9 @@
     import { Chart, type EChartsOptions } from 'svelte-echarts';
     import { writable } from 'svelte/store';
         import heatmap_data from '$lib/data/heatmap.json';
+import { selectedGame } from '$lib/stores/stores';
 
-const selectedGame = writable('Jeux Olympiques');
+
   
     const filteredData = () => {
       const currentGame = $selectedGame; // Utilisation correcte du store
@@ -80,7 +81,16 @@ for (let i = 0; i < n; i++) {
   color_gradient.push(`rgb(${r}, ${g}, ${b})`); // Ajouter la couleur au tableau
 }
 console.log(color_gradient)
-const options: EChartsOptions = { 
+let options: EChartsOptions ;
+
+$: {
+      const currentGame = $selectedGame;
+    const filteredData = heatmap_data.filter(d =>
+    currentGame === 'Jeux Olympiques' ? d.Jeux === 'Olympiques' :
+    currentGame === 'Jeux Paralympiques' ? d.Jeux === 'Paralympiques' :
+    true
+  );
+  options = { 
   tooltip: {
     position: 'top'
   },
@@ -130,7 +140,7 @@ const options: EChartsOptions = {
     }
   ]
 };
-    const selectedGame_heatmap = writable('Jeux Olympiques');
+}
     const activités = () => {
         const uniqueDisciplines = new Set(filteredArray.map(d => d.Activité));
         return Array.from(uniqueDisciplines);
@@ -149,9 +159,9 @@ const options: EChartsOptions = {
   
         <br/>
         <div class="flex flex-col md:flex-row justify-center space-x-4">
-          <button class="btn bg-surface-300" on:click={() => $selectedGame_heatmap.set('Jeux Olympiques')}>Jeux Olympiques</button>
-          <button class="btn bg-surface-300" on:click={() => $selectedGame_heatmap.set('Jeux Paralympiques')}>Jeux Paralympiques</button>
-          <select class="btn bg-surface-300 border-0 font-bold focus:outline-none focus:bg-white focus:border-gray-500">
+          <button class="btn bg-surface-300" on:click={() => ($selectedGame = "Jeux Olympiques")}>Jeux Olympiques</button>
+          <button class="btn bg-surface-300" on:click={() => ($selectedGame ='Jeux Paralympiques')}>Jeux Paralympiques</button>
+           <select class="btn bg-surface-300 border-0 font-bold focus:outline-none focus:bg-white focus:border-gray-500">
               <option value="" disabled selected>Filtrer selon vos préférences</option>
             {#each activités() as activité}
               <option value={activité}>{activité}</option>

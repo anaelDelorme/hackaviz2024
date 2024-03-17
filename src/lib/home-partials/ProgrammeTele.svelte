@@ -4,20 +4,11 @@
     import { Chart, type EChartsOptions } from 'svelte-echarts';
     import { writable } from 'svelte/store';
     import prime_time from '$lib/data/prime_time.json';
+import { selectedGame } from '$lib/stores/stores';
 
-    const selectedGame = writable('Jeux Olympiques');
-  
-    const filteredData = () => {
-      const currentGame = $selectedGame; // Utilisation correcte du store
-      if (currentGame === 'Jeux Olympiques') {
-        return prime_time.filter(d => d.jeux === 'Olympiques');
-      } else if (currentGame === 'Jeux Paralympiques') {
-        return prime_time.filter(d => d.jeux === 'Paralympiques');
-      } else {
-        return prime_time;
-      }
-    };
-  
+  console.log(selectedGame);
+
+    
     const popupFeatured: PopupSettings = {
       event: 'hover',
       target: 'popupFeatured',
@@ -25,9 +16,15 @@
     };
   
     let options: EChartsOptions;
-  
+
     $: {
-      const filteredPrimeTime = filteredData();
+      const currentGame = $selectedGame;
+    const filteredPrimeTime = prime_time.filter(d =>
+    currentGame === 'Jeux Olympiques' ? d.jeux === 'Olympiques' :
+    currentGame === 'Jeux Paralympiques' ? d.jeux === 'Paralympiques' :
+    true
+  );
+        
       options = {
         xAxis: {
           type: 'value',
@@ -50,13 +47,19 @@
           right: '3%',
           bottom: '20%',
           containLabel: true,
-          height: "400px"
+          height: "70%"
         },
         tooltip: {
           trigger: 'axis',
           axisPointer: {
             type: 'shadow'
-          }
+          },
+          formatter: function (params) {
+      const value = params[0].value; // obtenir la valeur
+      const percentage = Math.round(value) + ' %'; // convertir en pourcentage et arrondir à l'unité
+      return `<p>${params[0].name}</p>
+              <p>${percentage}</p>`; // retourner le tooltip avec le nom et le pourcentage
+    }
         }
       };
     }
@@ -71,7 +74,7 @@
   <div class=' mx-4 lg:mx-12'>
     <br/>
     <br/>
-    <h1 class="h1">
+    <h1 class="h2">
       <span class="bg-gradient-to-br from-surface-900 to-surface-400 bg-clip-text text-transparent box-decoration-clone">Préparez votre programme télé !</span>
     </h1>
     <br/>
@@ -83,8 +86,8 @@
   
         <br/>
         <div class="flex justify-center space-x-4">
-          <button class="btn bg-surface-300" on:click={() => $selectedGame.set('Jeux Olympiques')}>Jeux Olympiques</button>
-          <button class="btn bg-surface-300" on:click={() => $selectedGame.set('Jeux Paralympiques')}>Jeux Paralympiques</button>
+          <button class="btn bg-surface-300" on:click={() => ($selectedGame = "Jeux Olympiques")}>Jeux Olympiques</button>
+          <button class="btn bg-surface-300" on:click={() => ($selectedGame ='Jeux Paralympiques')}>Jeux Paralympiques</button>
         </div>
   
         <Chart {options} />

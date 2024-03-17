@@ -13,3 +13,5 @@ export const storeTheme = writable(browser ? document.body.getAttribute('data-th
 
 // Persists the tab selection for the user's preferred onboarding method
 export const storeOnboardMethod: Writable<string> = localStorageStore('storeOnboardMethod', 'cli');
+
+export const selectedGame = writable('Jeux Olympiques');
