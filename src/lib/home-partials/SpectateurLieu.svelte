@@ -1,10 +1,14 @@
 <script lang="ts">
-import { ProgressRadial } from '@skeletonlabs/skeleton';
+import { ProgressRadial, RangeSlider  } from '@skeletonlabs/skeleton';
 let value_heures_paris: number = 43; 
 let value_heures_spectateurs_paris: number = 57; 
 let value_heures_medailles_paris: number = 58; 
 import { Chart, type EChartsOptions } from 'svelte-echarts'
 import jo_horraire_ville from '$lib/data/jo_horraire_ville.json';
+import dayjs from 'dayjs';
+import 'dayjs/locale/fr';
+
+dayjs.locale('fr');
 
 // Graph spectateur par lieu et par data
 interface JoData {
@@ -22,39 +26,65 @@ interface JoData {
   ville: string;
   Enjeu: string;
 };
-const targetHoraire = '2024-07-28 10:00:00+00:00';
+let targetHoraire = '2024-07-24 10:00:00+00:00';
 interface AggregatedData {
   [key: string]: number;
 }
-const aggregatedData: AggregatedData = jo_horraire_ville
-  .map(d => ({ ...d, capacité_h: Number(d.capacité_h) }))
-  .filter(d => d.horraire === targetHoraire)
-  .reduce((acc, curr) => {
-    if (acc[curr.ville]) {
-      acc[curr.ville] += curr.capacité_h;
-    } else {
-      acc[curr.ville] = curr.capacité_h;
-    }
-    return acc;
-  }, {} as AggregatedData);
 
-interface AggregatedJoData {
-  ville: string;
-  capacité_h: number;
+let aggregatedData: AggregatedData = {}; // Initialisez avec une valeur vide
+  let filteredData: AggregatedJoData[] = []; 
+
+  $: {
+    const targetHoraire = horaires[value_slider - 1]; // -1 car les indices commencent à 0
+    aggregatedData = jo_horraire_ville
+      .map(d => ({ ...d, capacité_h: Number(d.capacité_h) }))
+      .filter(d => d.horraire === targetHoraire)
+      .reduce((acc, curr) => {
+        acc[curr.ville] = (acc[curr.ville] || 0) + curr.capacité_h;
+        return acc;
+      }, {} as AggregatedData);
+
+    filteredData = Object.entries(aggregatedData).map(([ville, capacité_h]) => ({
+      ville,
+      capacité_h,
+    }));
+    
+    updateChartOptions(); // Mettez à jour les options du graphique
+  }
+
+
+function formatNumberWithSpaces(num) {
+  const value = Math.round(num);
+  return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
 }
-const filteredData: AggregatedJoData[] = Object.entries(aggregatedData).map(([ville, capacité_h]) => ({
-  ville,
-  capacité_h,
-}));
   
+//slider
+let horaires = Array.from(new Set(jo_horraire_ville.map(d => d.horraire)));
+console.log("horaires",horaires);
+horaires.sort((a, b) => a - b);
+console.log("horaires",horaires);
 
-  const options: EChartsOptions = {
+let min = horaires[0];
+
+let max = horaires.length - 1;
+
+let initialValue = 0;
+let value_slider = horaires.findIndex(h => h >= initialValue) + 1;
+console.log("value_slider",value_slider); 
+
+  let options: EChartsOptions = {
 	xAxis: {
 	  type: 'value',
 	},
 	yAxis: {
 	  type: 'category',
 	  data: filteredData.map(d => d.ville),
+    axisLabel: {
+      formatter: function (value) {
+        const index = value.indexOf('(');
+        return index !== -1 ? value.substring(0, index).trim() : value;
+      }
+    }
 	},
 	series: [
 	  {
@@ -68,16 +98,62 @@ const filteredData: AggregatedJoData[] = Object.entries(aggregatedData).map(([vi
 	grid: {
 	  left: '3%',
 	  right: '4%',
-	  bottom: '3%',
+	  bottom: '10%',
+    
 	  containLabel: true
 	},
     tooltip: {
         trigger: 'axis',
         axisPointer: {
             type: 'shadow'
-        }
+        },
+        formatter: function (params) {
+            const value = params[0].value; // obtenir la valeur
+            const formattedValue = formatNumberWithSpaces(value); // formater la valeur
+            return `<p>${params[0].name}</p>
+                    <p>${formattedValue}</p>`; // retourner le tooltip avec le nom et la valeur formatée
+          }
     }
   }
+
+  function updateChartOptions() {
+    const updatedOptions: EChartsOptions = {
+      ...options, // Copier les options existantes
+      yAxis: {
+        type: 'category',
+        data: filteredData.map(d => d.ville),
+        axisLabel: {
+          formatter: function (value) {
+            const index = value.indexOf('(');
+            return index !== -1 ? value.substring(0, index).trim() : value;
+          }
+        }
+      },
+      series: [{
+        data: filteredData.map(d => d.capacité_h),
+        type: 'bar',
+        itemStyle: {
+          color: "#06b6d4"
+        }
+      }]
+    };
+    options = updatedOptions; // Mettre à jour les options du graphique
+  }
+
+    let isPlaying = false; // État de lecture
+
+   function startPlayback() {
+    isPlaying = !isPlaying;;
+    let currentIndex = value_slider;
+    const interval = setInterval(() => {
+      if (isPlaying) {
+        currentIndex = (currentIndex + 1) % (max + 1); // Boucler de la première à la dernière valeur du slider
+        value_slider = currentIndex;
+      } else {
+        clearInterval(interval); // Arrêter l'intervalle lorsque la lecture est mise en pause
+      }
+    }, 1000); // Délai d'une seconde
+  } 
 </script>
 
 <div class=' mx-4 lg:mx-12 '>
@@ -120,14 +196,27 @@ const filteredData: AggregatedJoData[] = Object.entries(aggregatedData).map(([vi
 
     </div>
 </div>
-<h2 class="mt-8">Pour aller plus loin : </h2>
-<div class="grid grid-cols-2 gap-4 text-center">
+<h2 class="mt-8"></h2>
+  <div class="w-0.8 mb-4">
+ 
+    <RangeSlider name="range-slider" bind:value={value_slider} min={min} max={max} step={1} ticked>
+      <div class="flex justify-between items-center">
+        <div class="font-bold">Regardons plus en détail, selon chaque jour de compétition :</div>
+        <button class="btn bg-surface-300" on:click={startPlayback}>
+    {isPlaying ? 'Pause' : 'Démarrer'}
+        </button>
+        <div class="text-xs">{dayjs(horaires[value_slider]).subtract(2, "h").format('dddd D MMMM [à] hh:mm')}</div>      </div>
+    </RangeSlider>
+    
+  </div>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-center">
     <div class="card shadow-xl bg-secondary-50">
         <img src="carto.svg" alt="Carto" style="max-height: 450px; width: auto;" />
     </div>
-    <div class="card shadow-xl bg-secondary-50">
+<div class="card shadow-xl bg-secondary-50 h-screen sm:h-auto">
     <br/>
-        <p>Nombre de spectateurs par ville et par période</p>
+        <h4>Nombre de spectateurs par ville et par période</h4>
         <Chart {options} />
     </div>
 </div>
