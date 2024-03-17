@@ -7,6 +7,7 @@
 		<p class="!text-xl max-w-[2000px]">
 		  Une datavisualiation des Datathlètes !
 		</p>
+		<br />
 	  </div>
 	</div>
   </div>

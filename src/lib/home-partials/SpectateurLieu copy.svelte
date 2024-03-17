@@ -84,14 +84,15 @@ const filteredData: AggregatedJoData[] = Object.entries(aggregatedData).map(([vi
   let showcase = 'Carte des Jeux';
 </script>
 
-<div class=' mx-4 lg:mx-12'>
+<div class=' mx-4 lg:mx-12 ' >
   <br/>
   <br/>
   <h1 class="h1 ">
       <span class="bg-gradient-to-br from-secondary-900 to-secondary-600 bg-clip-text text-transparent box-decoration-clone">Les Jeux de Paris... vraiment ?</span>
   </h1>
   <br/>
-  <p> Saviez-vous que seulement <span class="em-secondary" role="presentation">58% des sessions</span>des jeux olympiques et paralympiques auront lieu à Paris ?</p>
+  <p> Saviez-vous que <span class="em-secondary" role="presentation">seulement 58% des sessions</span>des jeux olympiques et paralympiques auront lieu à Paris ?</p>
+  <p> Et si vous deviez relier chaque site de compétition, il vous faudrait parcourir <span class="em-secondary" role="presentation">37 070 km...</span> et si l'on enlève Tahiti, le voyage serait moins long mais serait quand même de 2560 km, soit {2560/42.195} marathons.
   <br/>
   <h2>Chiffres clés :</h2>
   <div class="grid grid-cols-3 gap-4  text-center items-center">

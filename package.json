@@ -26,7 +26,6 @@
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
     "autoprefixer": "10.4.18",
-    "echarts": "^5.5.0",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-svelte": "^2.35.1",
@@ -51,6 +50,7 @@
     "bertin": "^1.8.5",
     "d3": "^7.9.0",
     "d3-fetch": "^3.0.1",
+    "echarts": "^5.5.0",
     "highlight.js": "11.9.0",
     "parse-color": "^1.0.0"
   }

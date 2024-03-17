@@ -4,7 +4,7 @@
     import { Chart, type EChartsOptions } from 'svelte-echarts';
     import { writable } from 'svelte/store';
     import prime_time from '$lib/data/prime_time.json';
-    import heatmap from '$lib/data/heatmap.json';
+
     const selectedGame = writable('Jeux Olympiques');
   
     const filteredData = () => {
@@ -91,25 +91,7 @@
   
       </div>
     </div>
-    <br/>
-    <p>
-        Pour aller plus loin, voilà de quoi vous aider à définir votre programme télé  :
-      </p>
-      <div class="grid grid-cols-1 gap-4 text-center">
-        <div class="card shadow-xl h-96 md:h-96 mt-8">
-    
-          <br/>
-          <div class="flex justify-center space-x-4">
-            <button class="btn bg-surface-300" on:click={() => $selectedGame.set('Jeux Olympiques')}>Jeux Olympiques</button>
-            <button class="btn bg-surface-300" on:click={() => $selectedGame.set('Jeux Paralympiques')}>Jeux Paralympiques</button>
-          </div>
-    
-          Ici le graphique
-    
-        </div>
-      </div>
   </div>
-  
   <div class="card p-4 w-90 shadow-xl" data-popup="popupFeatured">
     <div><p>Sessions qui se terminent après 20h.</p></div>
     <div class="arrow bg-surface-100-800-token" />

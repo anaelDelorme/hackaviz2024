@@ -3,6 +3,8 @@
   import SpectateurLieu from '$lib/home-partials/SpectateurLieu.svelte';
   import Gastronomie from '$lib/home-partials/Gastronomie.svelte';
   import ProgrammeTele from '$lib/home-partials/ProgrammeTele.svelte';
+  import Heatmap_tele from '$lib/home-partials/Heatmap_tele.svelte';
+
 </script>
 
 <header id="hero" class="bg-surface-100-800-token hero-gradient">
@@ -13,12 +15,13 @@
 	<SpectateurLieu />
 </section>
 
-<section id="spectateur_lieu" class="bg-surface-100-800-token section2-gradient">
+<section id="Gastronomie" class="bg-surface-100-800-token section2-gradient">
 	<Gastronomie />
 </section>
 
-<section id="spectateur_lieu" class="bg-surface-100-800-token section3-gradient">
+<section id="ProgrammeTele" class="bg-surface-100-800-token section3-gradient">
 	<ProgrammeTele />
+	<Heatmap_tele />
 </section>
 
 <style lang="postcss">

@@ -80,43 +80,47 @@ const filteredData: AggregatedJoData[] = Object.entries(aggregatedData).map(([vi
   }
 </script>
 
-<div class=' mx-4 lg:mx-12'>
-<br/>
-<br/>
-<h1 class="h1 ">
+<div class=' mx-4 lg:mx-12 '>
+
+
+<div class="grid grid-cols-1 sm:grid-cols-4 gap-4 text-center">
+    <div>
+      <h3 class="h3 text-center">
     <span class="bg-gradient-to-br from-secondary-900 to-secondary-600 bg-clip-text text-transparent box-decoration-clone">Les Jeux de Paris... vraiment ?</span>
-</h1>
-<br/>
-<p> Saviez-vous que seulement <span class="em-secondary" role="presentation">58% des sessions</span>des jeux olympiques et paralympiques auront lieu à Paris ?</p>
-<br/>
-<h2>Chiffres clés :</h2>
-<div class="grid grid-cols-3 gap-4  text-center">
-    <div class="card shadow-xl bg-secondary-50">
-        <header class="card-header">Heures d’épreuves en dehors de Paris</header>
-        <section class="p-4 flex items-center justify-center">
-            <ProgressRadial value={value_heures_paris} stroke={60} meter="stroke-secondary-500" track="stroke-secondary-400/30" strokeLinecap="butt">
-                1 473 heures
-            </ProgressRadial>
-        </section>
+</h3>
+
+<p class="text-left"> Saviez-vous que seulement <span class="em-secondary" role="presentation">58 %</span> des sessions des jeux olympiques et paralympiques auront lieu à Paris ?</p>
+  <p class="text-left"> Et si vous deviez relier chaque site de compétition, il vous faudrait parcourir <span class="em-secondary" role="presentation">37 070 km</span>. En restant dans l'hexagone, le voyage serai de <span class="em-secondary" role="presentation">2 560 km</span>, ou l'équivalent de <span class="em-secondary" role="presentation">610 marathons</span>.
     </div>
     <div class="card shadow-xl bg-secondary-50">
-        <header class="card-header">Spectateurs en dehors de Paris</header>
+        <section class="p-4 flex items-center justify-center">
+            <ProgressRadial value={value_heures_paris} stroke={60} meter="stroke-secondary-500" track="stroke-secondary-400/30" strokeLinecap="butt">
+                1 473
+            </ProgressRadial>
+        </section>
+                <footer class="card-header">Heure d'épreuves en dehors de Paris</footer>
+
+    </div>
+    <div class="card shadow-xl bg-secondary-50">
         <section class="p-4 flex items-center justify-center">
             <ProgressRadial value={value_heures_spectateurs_paris} stroke={60} meter="stroke-secondary-500" track="stroke-secondary-400/30" strokeLinecap="butt">
                 10,4 millions
             </ProgressRadial>
         </section>
+                <footer class="card-header">Spectateurs en dehors de Paris</footer>
+
     </div>
     <div class="card shadow-xl bg-secondary-50">
-        <header class="card-header">Médailles décernées en dehors de Paris</header>
         <section class="p-4 flex items-center justify-center">
         <ProgressRadial value={value_heures_medailles_paris} stroke={60} meter="stroke-secondary-500" track="stroke-secondary-400/30" strokeLinecap="butt">
-            889 médailles
+            889
         </ProgressRadial>
     </section>
+            <footer class="card-header">Médailles décernées en dehors de Paris</footer>
+
     </div>
 </div>
-<h2>Pour aller plus loin : </h2>
+<h2 class="mt-8">Pour aller plus loin : </h2>
 <div class="grid grid-cols-2 gap-4 text-center">
     <div class="card shadow-xl bg-secondary-50">
         <img src="carto.svg" alt="Carto" style="max-height: 450px; width: auto;" />
