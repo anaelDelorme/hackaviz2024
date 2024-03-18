@@ -204,10 +204,7 @@ activités = () => {
     <div class=' mx-4 mt-4 lg:mx-12 mt-12'>
 
   <p class="mt-8 lg:mt-12">
-          Pour aller plus loin, voilà de quoi vous aider à définir votre programme télé  :
-
-  </p>
-
+Voilà de quoi vous aider à définir votre <b>programme télé</b> :
     
     <div class="grid grid-cols-1 gap-4 text-center">
       <div class="card shadow-xl h-96 md:h-96 mt-2">

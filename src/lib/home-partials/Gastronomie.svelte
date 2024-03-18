@@ -41,7 +41,9 @@
       <span class="bg-gradient-to-br from-primary-800 to-primary-400 bg-clip-text text-transparent box-decoration-clone">La France, championne de la Gastronomie ?</span>
     </h1>
     <br />
-    <div class="grid grid-cols-4 gap-4  text-center">
+   <p>  Les épreuves seront aussi l'occasion de découvrir la France et sa gastronomie : plus <span class="em-primary" role="presentation">30 000 restaurants</span> sont à 15min à pied des sites des épreuves !</p>
+   <p>Choisissez un quartier pour savoir si vous aurez plus de chances de manger de la cuisine française traditionnelle ou de la cuisine du monde.  </p>
+    <div class="grid grid-cols-4 gap-4 mt-4  text-center">
   
     <select class="select bg-primary-50" on:change={handleSelectChange} >
         <option value="">Choisir un lieu</option>
@@ -103,3 +105,19 @@
     </div>
   </div>
   
+  <style lang="postcss">
+    .em-primary {
+        padding: 1px 4px 1px 4px;
+        font-weight: bold;
+        white-space: nowrap;
+        background-color: rgba(var(--color-primary-900) / 1);
+            color: white;
+    }
+    .em-secondary {
+        padding: 1px 4px 1px 4px;
+        font-weight: bold;
+        white-space: nowrap;
+        background-color: rgba(var(--color-secondary-900) / 1);
+            color: white;
+    }
+</style>
