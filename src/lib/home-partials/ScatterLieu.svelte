@@ -67,7 +67,7 @@ $:{
   
   <style>
     .scatter {
-      width: 50vw;
+      width: 200vh;
       height: 70vh;
     }
   </style>

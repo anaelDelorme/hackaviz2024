@@ -5,7 +5,6 @@
   import ScatterLieu from '$lib/home-partials/ScatterLieu.svelte';
     import Podium from '$lib/home-partials/Podium.svelte';
     import Podium2 from '$lib/home-partials/Podium2.svelte';
-    import MapRestau from '$lib/home-partials/MapRestau.svelte';
   import { choixLieuStore } from '$lib/stores/stores';
 
     const lieux = ['']; // Ajouter une option vide au début de la liste
@@ -78,19 +77,29 @@
       
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 text-center ">
+    <div class="grid grid-cols-1 gap-4 mt-4 text-center ">
       <div class="card shadow-xl bg-primary-50 h-96 md:h-96 mt-2">
+        <div class="w-full h-70v flex justify-center items-center">
+
          <ScatterLieu />
+         </div>
+      </div>
+      </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 text-center ">
+
+      <div class="card shadow-xl bg-primary-50 h-96 md:h-96 mt-2">
+           <div class="w-full h-70v flex justify-center items-center">
+<Podium />
+           </div>
+         
       </div>
       <div class="card shadow-xl bg-primary-50 h-96 md:h-96 mt-2">
-         <Podium />
-      </div>
-      <div class="card shadow-xl bg-primary-50 h-96 md:h-96 mt-2">
+                   <div class="w-full h-70v flex justify-center items-center">
+
          <Podium2 />
+         </div>
       </div>
-      <div class="card shadow-xl bg-primary-50 h-96 md:h-96 mt-2">
-        <MapRestau />
-      </div>
+
     </div>
   </div>
   

@@ -2,13 +2,13 @@
     import { Chart, type EChartsOptions } from 'svelte-echarts';
     import podium from '$lib/data/type_resto_podium.json';
     import podium_cuisine from '$lib/data/cuisine_podium.json';
-    import { choixLieuStore } from '$lib/stores/stores';
+  import { choixLieuStore } from '$lib/stores/stores';
 
-    let choix_lieu = $choixLieuStore;
+let choix_lieu = $choixLieuStore;
     let options: EChartsOptions;
 
     $: {
-        choix_lieu = $choixLieuStore;
+    choix_lieu = $choixLieuStore;
 
         const categories_cuisine = podium_cuisine.filter(d => d.lieu === choix_lieu).map(d => d.type)
 
