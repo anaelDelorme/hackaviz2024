@@ -7,7 +7,7 @@ import { Chart, type EChartsOptions } from 'svelte-echarts'
 import jo_horraire_ville from '$lib/data/jo_horraire_ville.json';
 import dayjs from 'dayjs';
 import 'dayjs/locale/fr';
-import Carto from '$lib/home-partials/Carto.svelte';
+import Carto from '$lib/home-partials/Carto2.svelte';
 import { horaires_store } from '$lib/stores/stores';
 const timeCurrent = $horaires_store;
 console.log("timeCurrent",timeCurrent)
@@ -218,7 +218,7 @@ console.log("value_slider",value_slider);
         <button class="btn bg-surface-300" on:click={startPlayback}>
     {isPlaying ? 'Pause' : 'Démarrer'}
         </button>
-        <div class="text-xs">{dayjs(horaires[value_slider]).subtract(2, "h").format('dddd D MMMM [à] hh:mm')}</div>      </div>
+        <div class="text-xs">{dayjs(horaires[value_slider]).format('dddd D MMMM')}</div>      </div>
     </RangeSlider>
     
   </div>
