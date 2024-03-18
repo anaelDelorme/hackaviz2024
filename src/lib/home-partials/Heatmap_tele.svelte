@@ -49,23 +49,53 @@ for (let i = 0; i < n; i++) {
 }
 console.log(color_gradient)
 let options: EChartsOptions;
+let activités= () => {
+        const uniqueDisciplines = new Set(filteredArray.map(d => d.Activité));
+        return Array.from(uniqueDisciplines);
+      }; 
+let selectedDiscipline: String;
+function handleSelectChange(event) {
+      selectedDiscipline = event.target.value;
+    }
+
+
+let selectionaActivité = "Non";
+let filteredHeatmapNew = heatmap_data;
+let currentGame=$selectedGame
 $: {
+    if (currentGame != $selectedGame){
+        selectedDiscipline = undefined;  
+    }
     data=[];
+    days=[];
     let max: number = 0;
 
-      const currentGame = $selectedGame;
-    const filteredHeatmap = heatmap_data.filter(d =>
+      currentGame = $selectedGame;
+    let filteredHeatmap = heatmap_data.filter(d =>
     currentGame === 'Jeux Olympiques' ? d.Jeux === 'Olympiques' :
     currentGame === 'Jeux Paralympiques' ? d.Jeux === 'Paralympiques' :
     true
   );
+  console.log("selectedDiscipline",selectedDiscipline);
+if (selectedDiscipline==undefined){
+  selectionaActivité = "Non"; 
+ }else{
+   filteredHeatmapNew = filteredHeatmap.filter(d => d.Activité===selectedDiscipline);
+   selectionaActivité = "Oui";
+   
+ }
+   console.log("days_set",days_set)
+
   days_set.clear();
+  
+  console.log("selectionaActivité",selectionaActivité)
+  if(selectionaActivité=="Non"){
   filteredHeatmap.forEach((item: any) => {
     
     days_set.add(item.jour_semaine);
   });
   console.log("YOO",filteredHeatmap);
-  let days: string[] = Array.from(days_set).reverse();
+  days = Array.from(days_set).reverse();
     console.log("YOO",days);
 
 for (const day of days) {
@@ -85,7 +115,32 @@ data.map(function (item) {
 max = data.reduce((maxCount: number, item: number[]) => {
   return Math.max(maxCount, item[2]);
 }, 0);
+  }else{
+     filteredHeatmapNew.forEach((item: any) => {
+    
+    days_set.add(item.jour_semaine);
+  });
+  days = Array.from(days_set).reverse();
+    console.log("YOO",days);
 
+for (const day of days) {
+  for (const hour of hours) {
+const count = filteredHeatmapNew.filter(
+    (item: any) => item.jour_semaine === day && item.heure_unique === hour
+  ).length;
+
+    data.push([hours.indexOf(hour), days.indexOf(day), count]);
+  }
+}
+
+data.map(function (item) {
+    return [item[1], item[0], item[2] || '-'];
+});
+
+max = data.reduce((maxCount: number, item: number[]) => {
+  return Math.max(maxCount, item[2]);
+}, 0);
+  }
    options= { 
   tooltip: {
     position: 'top'
@@ -136,13 +191,15 @@ max = data.reduce((maxCount: number, item: number[]) => {
     }
   ]
 };
+activités = () => {
+        const uniqueDisciplines = new Set(filteredHeatmap.map(d => d.Activité));
+        return Array.from(uniqueDisciplines);
+      }; 
+
+
   }
    
-  const selectedGame_heatmap = writable('Jeux Olympiques');
-    const activités = () => {
-        const uniqueDisciplines = new Set(filteredArray.map(d => d.Activité));
-        return Array.from(uniqueDisciplines);
-      };          
+             
   </script>
     <div class=' mx-4 mt-4 lg:mx-12 mt-12'>
 
@@ -159,12 +216,12 @@ max = data.reduce((maxCount: number, item: number[]) => {
         <div class="flex flex-col-2 justify-center space-x-4">
           <button class="btn bg-surface-300" on:click={() => ($selectedGame = "Jeux Olympiques")}>Jeux Olympiques</button>
           <button class="btn bg-surface-300" on:click={() => ($selectedGame ='Jeux Paralympiques')}>Jeux Paralympiques</button>
-         <!--  <select class="btn bg-surface-300 border-0 font-bold focus:outline-none focus:bg-white focus:border-gray-500">
+           <select class="btn bg-surface-300 border-0 font-bold focus:outline-none focus:bg-white focus:border-gray-500" on:change={handleSelectChange}>
               <option value="" disabled selected>Filtrer selon vos préférences</option>
             {#each activités() as activité}
               <option value={activité}>{activité}</option>
             {/each}
-    </select>-->
+    </select>
         </div>
   
         <Chart {options} />

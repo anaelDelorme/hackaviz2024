@@ -19,7 +19,8 @@ import { selectedGame } from '$lib/stores/stores';
 
     $: {
       const currentGame = $selectedGame;
-    const filteredPrimeTime = prime_time.filter(d =>
+      const prime_timeSansCerem = prime_time.filter(d =>d.discipline_regroup!="Cérémonie")
+    const filteredPrimeTime = prime_timeSansCerem.filter(d =>
     currentGame === 'Jeux Olympiques' ? d.jeux === 'Olympiques' :
     currentGame === 'Jeux Paralympiques' ? d.jeux === 'Paralympiques' :
     true

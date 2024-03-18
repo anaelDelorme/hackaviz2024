@@ -46,7 +46,7 @@ $:{
   series: [
     {
       symbolSize: 8,
-    color: '#8B0000',
+    color: '#a03a6c',
       data: cuisine_scatter.filter(d => d.lieu !== choix_lieu).map( d => [d.cuisine_francaise, d.cuisine_du_monde]),
       type: 'scatter'
     },{

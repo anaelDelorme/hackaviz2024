@@ -24,7 +24,7 @@ const data_cuisine = podium_cuisine.filter(d => d.lieu === choix_lieu).map(d => 
 
 options = {
 
-    color: ['#8B0000'],
+    color: ['#a03a6c'],
 
     //, ['#C0C0C0','#FFD700', '#CD7F32'],
 

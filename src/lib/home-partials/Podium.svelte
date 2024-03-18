@@ -13,7 +13,7 @@
         const categories = filteredPodium.map(d => d.type);
         const data = filteredPodium.map(d => d.pct);
         options = {
-            color: ['#8B0000'],
+            color: ['#a03a6c'],
             xAxis: {
                 type: 'category',
                 data: categories,
