@@ -231,7 +231,7 @@ function updateMapOptions() {
 </script>
 
 <div id="my_dataviz2">
-<svg id="carto_spectateur" width="600" height="400"></svg>
+<svg id="carto_spectateur" width="600" height="350"></svg>
 </div>
 
 <style>

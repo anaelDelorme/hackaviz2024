@@ -80,7 +80,7 @@ options = {
 
 <style>
     .podium {
-        width: 50vw;
-        height: 70vh;
+        width: 100%;
+    height: 80vh; /* définir une hauteur minimale de 80% de la hauteur de l'écran */
     }
 </style>

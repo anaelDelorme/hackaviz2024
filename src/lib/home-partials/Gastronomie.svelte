@@ -79,24 +79,23 @@
       
     </div>
 
-    <div class="grid grid-cols-1 gap-4 mt-4 text-center ">
-      <div class="card shadow-xl bg-primary-50 h-96 md:h-96 mt-2">
-        <div class="w-full h-70v flex justify-center items-center">
+    <div class="grid grid-cols-1 gap-4 mt-4 text-center min-h-screen-80 ">
+      <div class="card min-h-screen-80 shadow-xl bg-primary-50 h-full md:h-full mt-2">
+        <div class="w-full min-h-screen-80 h-full flex justify-center items-center">
 
          <ScatterLieu />
          </div>
       </div>
       </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 text-center ">
-
-      <div class="card shadow-xl bg-primary-50 h-96 md:h-96 mt-2">
-           <div class="w-full h-70v flex justify-center items-center">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 text-center">
+      <div class="card shadow-xl bg-primary-50 h-full md:h-full mt-2">
+        <div class="w-full min-h-screen-80  h-full flex justify-center items-center">
 <Podium />
            </div>
          
       </div>
-      <div class="card shadow-xl bg-primary-50 h-96 md:h-96 mt-2">
-                   <div class="w-full h-70v flex justify-center items-center">
+      <div class="card shadow-xl bg-primary-50 h-full md:h-full mt-2">
+        <div class="w-full min-h-screen-80  h-full flex justify-center items-center">
 
          <Podium2 />
          </div>
@@ -120,4 +119,8 @@
         background-color: rgba(var(--color-secondary-900) / 1);
             color: white;
     }
+    .scatter-lieu {
+    width: 100%;
+    min-height: 80vh; /* définir une hauteur minimale de 80% de la hauteur de l'écran */
+  }
 </style>
