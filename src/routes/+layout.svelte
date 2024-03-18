@@ -145,22 +145,22 @@ const themes = [
 		<ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
 	
 			<li>
-				<a href="#" class="hover:underline">Anaël Delorme</a>
+				<a href="https://www.linkedin.com/in/ana%C3%ABl-delorme-573b8858/" class="hover:underline">Anaël Delorme</a>
 			</li>
 			<li>
 				<span class="mx-2">&nbsp;</span>
 
-				<a href="#" class="hover:underline">François Semecurbe</a>
+				<a href="https://www.linkedin.com/in/francoissemecurbe/" class="hover:underline">François Semecurbe</a>
 			</li>
 			<li>
 				<span class="mx-2">&nbsp;</span>
 
-				<a href="#" class="hover:underline">Laurette Cretin</a>
+				<a href="https://github.com/laurettecretin" class="hover:underline">Laurette Cretin</a>
 			</li>
 			<li>
 				<span class="mx-2">&nbsp;</span>
 
-				<a href="#" class="hover:underline">Marion Roué</a>
+				<a href="https://github.com/marionroueagri" class="hover:underline">Marion Roué</a>
 			</li>
 			<li>
 

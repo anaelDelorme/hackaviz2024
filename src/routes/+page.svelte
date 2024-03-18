@@ -77,12 +77,15 @@
 			radial-gradient(at 0% 100%, rgba(var(--color-secondary-500) / 0.50) 0px, transparent 50%);
 	}
 	.section2-gradient {
-		background-image:
-		radial-gradient(at 0% 0%, rgba(var(--color-secondary-500) / 0.50) 0px, transparent 50%),
-			radial-gradient(at 100% 100%,  rgba(var(--color-primary-500) / 0.24) 0px, transparent 50%);
-	}
-	.section3-gradient {
-		background-image:
-		radial-gradient(at 0% 100%,  rgba(var(--color-primary-500) / 0.50) 0px, transparent 50%);
-	}
+    background-image:
+        radial-gradient(at 0% 0%, rgba(var(--color-secondary-500) / 0.50) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(var(--color-primary-500) / 0.24) 0px, transparent 50%);
+}
+
+.section3-gradient {
+    background-image:
+        radial-gradient(at 0% 100%, rgba(var(--color-primary-500) / 0.50) 0px, transparent 50%),
+        radial-gradient(at 100% 0%, rgba(var(--color-primary-500) / 0.24) 0px, transparent 50%);
+}
+
 </style>

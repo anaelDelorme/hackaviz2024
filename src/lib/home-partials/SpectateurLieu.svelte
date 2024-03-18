@@ -78,6 +78,11 @@ console.log("value_slider",value_slider);
   let options: EChartsOptions = {
 	xAxis: {
 	  type: 'value',
+    axisLabel: {
+      formatter: function (value) {
+        return formatNumberWithSpaces(value);
+      }
+    }
 	},
 	yAxis: {
 	  type: 'category',
