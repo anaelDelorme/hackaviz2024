@@ -1,0 +1,268 @@
+[
+  {
+    "lieu": "Arena Bercy",
+    "nb": 1542,
+    "restauration_traditionnelle": 53.82619974059663,
+    "restauration_de_type_rapide": 37.7431906614786,
+    "debits_de_boissons": 8.430609597924773
+  },
+  {
+    "lieu": "Arena Champ-de-Mars",
+    "nb": 1410,
+    "restauration_traditionnelle": 61.41843971631206,
+    "restauration_de_type_rapide": 32.62411347517731,
+    "debits_de_boissons": 5.957446808510639
+  },
+  {
+    "lieu": "Arena Paris Nord",
+    "nb": 23,
+    "restauration_traditionnelle": 30.434782608695656,
+    "restauration_de_type_rapide": 69.56521739130434,
+    "debits_de_boissons": 0
+  },
+  {
+    "lieu": "Arena Paris Sud",
+    "nb": 695,
+    "restauration_traditionnelle": 57.41007194244604,
+    "restauration_de_type_rapide": 34.24460431654676,
+    "debits_de_boissons": 8.345323741007196
+  },
+  {
+    "lieu": "Arena Paris Sud 1",
+    "nb": 695,
+    "restauration_traditionnelle": 57.41007194244604,
+    "restauration_de_type_rapide": 34.24460431654676,
+    "debits_de_boissons": 8.345323741007196
+  },
+  {
+    "lieu": "Arena Paris Sud 6",
+    "nb": 695,
+    "restauration_traditionnelle": 57.41007194244604,
+    "restauration_de_type_rapide": 34.24460431654676,
+    "debits_de_boissons": 8.345323741007196
+  },
+  {
+    "lieu": "Arena Porte de La Chapelle",
+    "nb": 949,
+    "restauration_traditionnelle": 46.99683877766069,
+    "restauration_de_type_rapide": 42.67650158061117,
+    "debits_de_boissons": 10.326659641728135
+  },
+  {
+    "lieu": "Centre aquatique",
+    "nb": 464,
+    "restauration_traditionnelle": 38.577586206896555,
+    "restauration_de_type_rapide": 49.353448275862064,
+    "debits_de_boissons": 12.068965517241379
+  },
+  {
+    "lieu": "Château de Versailles",
+    "nb": 5,
+    "restauration_traditionnelle": 60,
+    "restauration_de_type_rapide": 40,
+    "debits_de_boissons": 0
+  },
+  {
+    "lieu": "Clichy-sous-Bois",
+    "nb": 164,
+    "restauration_traditionnelle": 24.390243902439025,
+    "restauration_de_type_rapide": 60.97560975609756,
+    "debits_de_boissons": 14.634146341463413
+  },
+  {
+    "lieu": "Colline d'Elancourt",
+    "nb": 32,
+    "restauration_traditionnelle": 34.375,
+    "restauration_de_type_rapide": 62.5,
+    "debits_de_boissons": 3.125
+  },
+  {
+    "lieu": "Concorde",
+    "nb": 3126,
+    "restauration_traditionnelle": 55.88611644273832,
+    "restauration_de_type_rapide": 37.555982085732566,
+    "debits_de_boissons": 6.557901471529111
+  },
+  {
+    "lieu": "Golf national",
+    "nb": 4,
+    "restauration_traditionnelle": 75,
+    "restauration_de_type_rapide": 25,
+    "debits_de_boissons": 0
+  },
+  {
+    "lieu": "Grand Palais",
+    "nb": 2489,
+    "restauration_traditionnelle": 56.60907995178787,
+    "restauration_de_type_rapide": 36.6412213740458,
+    "debits_de_boissons": 6.749698674166332
+  },
+  {
+    "lieu": "Hôtel de ville-Invalides",
+    "nb": 5133,
+    "restauration_traditionnelle": 58.308981102669,
+    "restauration_de_type_rapide": 32.20338983050847,
+    "debits_de_boissons": 9.487629066822521
+  },
+  {
+    "lieu": "Invalides",
+    "nb": 2161,
+    "restauration_traditionnelle": 56.96436834798704,
+    "restauration_de_type_rapide": 36.279500231374364,
+    "debits_de_boissons": 6.756131420638593
+  },
+  {
+    "lieu": "Invalides-Pont Alexandre-III",
+    "nb": 2451,
+    "restauration_traditionnelle": 56.9563443492452,
+    "restauration_de_type_rapide": 36.434108527131784,
+    "debits_de_boissons": 6.609547123623011
+  },
+  {
+    "lieu": "Marina de Marseille",
+    "nb": 114,
+    "restauration_traditionnelle": 56.14035087719298,
+    "restauration_de_type_rapide": 35.08771929824561,
+    "debits_de_boissons": 8.771929824561402
+  },
+  {
+    "lieu": "Parc des Princes",
+    "nb": 245,
+    "restauration_traditionnelle": 60.40816326530612,
+    "restauration_de_type_rapide": 35.51020408163265,
+    "debits_de_boissons": 4.081632653061225
+  },
+  {
+    "lieu": "Paris La Défense Arena",
+    "nb": 511,
+    "restauration_traditionnelle": 43.05283757338552,
+    "restauration_de_type_rapide": 53.8160469667319,
+    "debits_de_boissons": 3.131115459882583
+  },
+  {
+    "lieu": "Pont Alexandre-III",
+    "nb": 2451,
+    "restauration_traditionnelle": 56.9563443492452,
+    "restauration_de_type_rapide": 36.434108527131784,
+    "debits_de_boissons": 6.609547123623011
+  },
+  {
+    "lieu": "Site d'escalade",
+    "nb": 163,
+    "restauration_traditionnelle": 42.331288343558285,
+    "restauration_de_type_rapide": 44.171779141104295,
+    "debits_de_boissons": 13.496932515337424
+  },
+  {
+    "lieu": "Stade BMX",
+    "nb": 129,
+    "restauration_traditionnelle": 42.63565891472868,
+    "restauration_de_type_rapide": 54.263565891472865,
+    "debits_de_boissons": 3.10077519379845
+  },
+  {
+    "lieu": "Stade de Bordeaux",
+    "nb": 7,
+    "restauration_traditionnelle": 71.42857142857143,
+    "restauration_de_type_rapide": 28.57142857142857,
+    "debits_de_boissons": 0
+  },
+  {
+    "lieu": "Stade de France",
+    "nb": 462,
+    "restauration_traditionnelle": 38.52813852813853,
+    "restauration_de_type_rapide": 49.134199134199136,
+    "debits_de_boissons": 12.337662337662337
+  },
+  {
+    "lieu": "Stade de la Beaujoire",
+    "nb": 40,
+    "restauration_traditionnelle": 30,
+    "restauration_de_type_rapide": 67.5,
+    "debits_de_boissons": 2.5
+  },
+  {
+    "lieu": "Stade de Lyon",
+    "nb": 55,
+    "restauration_traditionnelle": 30.909090909090907,
+    "restauration_de_type_rapide": 58.18181818181818,
+    "debits_de_boissons": 10.909090909090908
+  },
+  {
+    "lieu": "Stade de Marseille",
+    "nb": 390,
+    "restauration_traditionnelle": 38.97435897435898,
+    "restauration_de_type_rapide": 50.51282051282051,
+    "debits_de_boissons": 10.512820512820513
+  },
+  {
+    "lieu": "Stade de Nice",
+    "nb": 50,
+    "restauration_traditionnelle": 34,
+    "restauration_de_type_rapide": 60,
+    "debits_de_boissons": 6
+  },
+  {
+    "lieu": "Stade Geoffroy-Guichard",
+    "nb": 78,
+    "restauration_traditionnelle": 34.61538461538461,
+    "restauration_de_type_rapide": 51.28205128205128,
+    "debits_de_boissons": 14.102564102564102
+  },
+  {
+    "lieu": "Stade nautique de Vaires-sur-Marne - Bassin eaux calmes",
+    "nb": 41,
+    "restauration_traditionnelle": 48.78048780487805,
+    "restauration_de_type_rapide": 43.90243902439025,
+    "debits_de_boissons": 7.317073170731707
+  },
+  {
+    "lieu": "Stade nautique-Bassin eau vive",
+    "nb": 41,
+    "restauration_traditionnelle": 48.78048780487805,
+    "restauration_de_type_rapide": 43.90243902439025,
+    "debits_de_boissons": 7.317073170731707
+  },
+  {
+    "lieu": "Stade Pierre-Mauroy",
+    "nb": 146,
+    "restauration_traditionnelle": 44.52054794520548,
+    "restauration_de_type_rapide": 52.73972602739726,
+    "debits_de_boissons": 2.73972602739726
+  },
+  {
+    "lieu": "Stade Roland-Garros",
+    "nb": 141,
+    "restauration_traditionnelle": 59.57446808510638,
+    "restauration_de_type_rapide": 38.297872340425535,
+    "debits_de_boissons": 2.127659574468085
+  },
+  {
+    "lieu": "Stade tour Eiffel",
+    "nb": 1498,
+    "restauration_traditionnelle": 60.08010680907877,
+    "restauration_de_type_rapide": 34.31241655540721,
+    "debits_de_boissons": 5.607476635514018
+  },
+  {
+    "lieu": "Stade Yves-du-Manoir",
+    "nb": 136,
+    "restauration_traditionnelle": 41.911764705882355,
+    "restauration_de_type_rapide": 50.73529411764706,
+    "debits_de_boissons": 7.352941176470589
+  },
+  {
+    "lieu": "Trocadéro",
+    "nb": 1521,
+    "restauration_traditionnelle": 60.02629848783695,
+    "restauration_de_type_rapide": 34.51676528599605,
+    "debits_de_boissons": 5.456936226166995
+  },
+  {
+    "lieu": "Vélodrome national",
+    "nb": 129,
+    "restauration_traditionnelle": 42.63565891472868,
+    "restauration_de_type_rapide": 54.263565891472865,
+    "debits_de_boissons": 3.10077519379845
+  }
+]

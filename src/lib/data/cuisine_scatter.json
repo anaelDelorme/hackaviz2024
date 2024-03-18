@@ -1,0 +1,192 @@
+[
+  {
+    "lieu": "Arena Bercy",
+    "cuisine_francaise": 6.809338521400778,
+    "cuisine_du_monde": 7.782101167315175
+  },
+  {
+    "lieu": "Arena Champ-de-Mars",
+    "cuisine_francaise": 8.01418439716312,
+    "cuisine_du_monde": 5.74468085106383
+  },
+  {
+    "lieu": "Arena Paris Nord",
+    "cuisine_francaise": 4.3478260869565215,
+    "cuisine_du_monde": 13.043478260869565
+  },
+  {
+    "lieu": "Arena Paris Sud",
+    "cuisine_francaise": 6.18705035971223,
+    "cuisine_du_monde": 7.913669064748201
+  },
+  {
+    "lieu": "Arena Paris Sud 1",
+    "cuisine_francaise": 6.18705035971223,
+    "cuisine_du_monde": 7.913669064748201
+  },
+  {
+    "lieu": "Arena Paris Sud 6",
+    "cuisine_francaise": 6.18705035971223,
+    "cuisine_du_monde": 7.913669064748201
+  },
+  {
+    "lieu": "Arena Porte de La Chapelle",
+    "cuisine_francaise": 5.900948366701791,
+    "cuisine_du_monde": 6.42781875658588
+  },
+  {
+    "lieu": "Centre aquatique",
+    "cuisine_francaise": 3.2327586206896552,
+    "cuisine_du_monde": 10.775862068965516
+  },
+  {
+    "lieu": "Château de Versailles",
+    "cuisine_francaise": 0,
+    "cuisine_du_monde": 60
+  },
+  {
+    "lieu": "Clichy-sous-Bois",
+    "cuisine_francaise": 6.707317073170732,
+    "cuisine_du_monde": 13.414634146341465
+  },
+  {
+    "lieu": "Colline d'Elancourt",
+    "cuisine_francaise": 3.125,
+    "cuisine_du_monde": 18.75
+  },
+  {
+    "lieu": "Concorde",
+    "cuisine_francaise": 8.54126679462572,
+    "cuisine_du_monde": 5.2463211772232885
+  },
+  {
+    "lieu": "Golf national",
+    "cuisine_francaise": 0,
+    "cuisine_du_monde": 25
+  },
+  {
+    "lieu": "Grand Palais",
+    "cuisine_francaise": 7.955002008838891,
+    "cuisine_du_monde": 5.142627561269586
+  },
+  {
+    "lieu": "Hôtel de ville-Invalides",
+    "cuisine_francaise": 6.954997077732321,
+    "cuisine_du_monde": 4.578219364893824
+  },
+  {
+    "lieu": "Invalides",
+    "cuisine_francaise": 8.190652475705692,
+    "cuisine_du_monde": 4.673762147154095
+  },
+  {
+    "lieu": "Invalides-Pont Alexandre-III",
+    "cuisine_francaise": 8.119135046919626,
+    "cuisine_du_monde": 4.977560179518563
+  },
+  {
+    "lieu": "Marina de Marseille",
+    "cuisine_francaise": 2.631578947368421,
+    "cuisine_du_monde": 3.508771929824561
+  },
+  {
+    "lieu": "Parc des Princes",
+    "cuisine_francaise": 5.3061224489795915,
+    "cuisine_du_monde": 6.938775510204081
+  },
+  {
+    "lieu": "Paris La Défense Arena",
+    "cuisine_francaise": 7.436399217221135,
+    "cuisine_du_monde": 8.610567514677104
+  },
+  {
+    "lieu": "Pont Alexandre-III",
+    "cuisine_francaise": 8.119135046919626,
+    "cuisine_du_monde": 4.977560179518563
+  },
+  {
+    "lieu": "Site d'escalade",
+    "cuisine_francaise": 4.294478527607362,
+    "cuisine_du_monde": 13.496932515337424
+  },
+  {
+    "lieu": "Stade BMX",
+    "cuisine_francaise": 3.875968992248062,
+    "cuisine_du_monde": 12.4031007751938
+  },
+  {
+    "lieu": "Stade de Bordeaux",
+    "cuisine_francaise": 0,
+    "cuisine_du_monde": 0
+  },
+  {
+    "lieu": "Stade de France",
+    "cuisine_francaise": 3.67965367965368,
+    "cuisine_du_monde": 9.956709956709958
+  },
+  {
+    "lieu": "Stade de la Beaujoire",
+    "cuisine_francaise": 5,
+    "cuisine_du_monde": 25
+  },
+  {
+    "lieu": "Stade de Lyon",
+    "cuisine_francaise": 3.6363636363636362,
+    "cuisine_du_monde": 14.545454545454545
+  },
+  {
+    "lieu": "Stade de Marseille",
+    "cuisine_francaise": 4.871794871794872,
+    "cuisine_du_monde": 8.717948717948717
+  },
+  {
+    "lieu": "Stade de Nice",
+    "cuisine_francaise": 4,
+    "cuisine_du_monde": 12
+  },
+  {
+    "lieu": "Stade Geoffroy-Guichard",
+    "cuisine_francaise": 6.41025641025641,
+    "cuisine_du_monde": 8.974358974358974
+  },
+  {
+    "lieu": "Stade nautique de Vaires-sur-Marne - Bassin eaux calmes",
+    "cuisine_francaise": 4.878048780487805,
+    "cuisine_du_monde": 2.4390243902439024
+  },
+  {
+    "lieu": "Stade nautique-Bassin eau vive",
+    "cuisine_francaise": 4.878048780487805,
+    "cuisine_du_monde": 2.4390243902439024
+  },
+  {
+    "lieu": "Stade Pierre-Mauroy",
+    "cuisine_francaise": 11.643835616438356,
+    "cuisine_du_monde": 16.43835616438356
+  },
+  {
+    "lieu": "Stade Roland-Garros",
+    "cuisine_francaise": 5.673758865248227,
+    "cuisine_du_monde": 6.382978723404255
+  },
+  {
+    "lieu": "Stade tour Eiffel",
+    "cuisine_francaise": 8.210947930574099,
+    "cuisine_du_monde": 5.540720961281709
+  },
+  {
+    "lieu": "Stade Yves-du-Manoir",
+    "cuisine_francaise": 3.6764705882352944,
+    "cuisine_du_monde": 8.088235294117647
+  },
+  {
+    "lieu": "Trocadéro",
+    "cuisine_francaise": 7.758053911900066,
+    "cuisine_du_monde": 5.851413543721236
+  },
+  {
+    "lieu": "Vélodrome national",
+    "cuisine_francaise": 3.875968992248062,
+    "cuisine_du_monde": 12.4031007751938
+  }
+]

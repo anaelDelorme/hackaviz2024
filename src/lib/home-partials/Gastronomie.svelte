@@ -2,7 +2,12 @@
     import { onMount } from 'svelte';
     import nb_resto_lieu from "$lib/data/bn_resto_lieu.json";
     import { createEventDispatcher } from 'svelte';
-  
+  import ScatterLieu from '$lib/home-partials/ScatterLieu.svelte';
+    import Podium from '$lib/home-partials/Podium.svelte';
+    import Podium2 from '$lib/home-partials/Podium2.svelte';
+    import MapRestau from '$lib/home-partials/MapRestau.svelte';
+  import { choixLieuStore } from '$lib/stores/stores';
+
     const lieux = ['']; // Ajouter une option vide au début de la liste
     nb_resto_lieu.forEach(item => lieux.push(item.lieu)); // Ajouter tous les lieux du JSON
   
@@ -26,6 +31,7 @@
       selectedLieu = event.target.value;
       updateLieuInfo();
       dispatch('lieuChanged', selectedLieu); // Dispatch un événement si le lieu change
+      $choixLieuStore = selectedLieu;
     }
   </script>
   
@@ -38,7 +44,7 @@
     <br />
     <div class="grid grid-cols-4 gap-4  text-center">
   
-      <select class="select bg-primary-50" on:change={handleSelectChange}>
+    <select class="select bg-primary-50" on:change={handleSelectChange} >
         <option value="">Choisir un lieu</option>
         {#each lieux as lieu}
           {#if lieu === "Stade tour Eiffel"} 
@@ -70,6 +76,21 @@
         </section>
       </div>
       
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 text-center ">
+      <div class="card shadow-xl bg-primary-50 h-96 md:h-96 mt-2">
+         <ScatterLieu />
+      </div>
+      <div class="card shadow-xl bg-primary-50 h-96 md:h-96 mt-2">
+         <Podium />
+      </div>
+      <div class="card shadow-xl bg-primary-50 h-96 md:h-96 mt-2">
+         <Podium2 />
+      </div>
+      <div class="card shadow-xl bg-primary-50 h-96 md:h-96 mt-2">
+        <MapRestau />
+      </div>
     </div>
   </div>
   

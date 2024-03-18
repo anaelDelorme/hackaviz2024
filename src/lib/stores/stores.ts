@@ -15,3 +15,8 @@ export const storeTheme = writable(browser ? document.body.getAttribute('data-th
 export const storeOnboardMethod: Writable<string> = localStorageStore('storeOnboardMethod', 'cli');
 
 export const selectedGame = writable('Jeux Olympiques');
+
+export const horaires_store = writable('2024-08-03 10:00:00+00:00');
+
+export const choixLieuStore = writable("Paris tour Eiffel");
+

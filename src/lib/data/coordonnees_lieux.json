@@ -1,0 +1,227 @@
+[
+  {
+    "lieu": "Trocadéro",
+    "longitude": 2.2914,
+    "latitude": 48.856261999999994
+  },
+  {
+    "lieu": "Stade de France",
+    "longitude": 2.3598709999999996,
+    "latitude": 48.924388
+  },
+  {
+    "lieu": "Hôtel de ville-Invalides",
+    "longitude": 2.3514149999999994,
+    "latitude": 48.856857999999995
+  },
+  {
+    "lieu": "Stade nautique-Bassin eau calme",
+    "longitude": 2.636374,
+    "latitude": 48.862229
+  },
+  {
+    "lieu": "Arena Porte de La Chapelle",
+    "longitude": 2.3598642040231956,
+    "latitude": 48.89946713333248
+  },
+  {
+    "lieu": "Stade Pierre-Mauroy",
+    "longitude": 3.130437291072136,
+    "latitude": 50.61206917162663
+  },
+  {
+    "lieu": "Arena Bercy",
+    "longitude": 2.3784959999999997,
+    "latitude": 48.838649
+  },
+  {
+    "lieu": "Concorde",
+    "longitude": 2.3212049999999995,
+    "latitude": 48.865589
+  },
+  {
+    "lieu": "Stade tour Eiffel",
+    "longitude": 2.296084,
+    "latitude": 48.857231999999996
+  },
+  {
+    "lieu": "Stade BMX",
+    "longitude": 2.034736,
+    "latitude": 48.787260999999994
+  },
+  {
+    "lieu": "Stade Roland-Garros",
+    "longitude": 2.2455010000000004,
+    "latitude": 48.847319999999996
+  },
+  {
+    "lieu": "Arena Paris Nord",
+    "longitude": 2.52075889419615,
+    "latitude": 48.97109984208225
+  },
+  {
+    "lieu": "Stade nautique-Bassin eau vive",
+    "longitude": 2.636374,
+    "latitude": 48.862229
+  },
+  {
+    "lieu": "Vélodrome national",
+    "longitude": 2.034987,
+    "latitude": 48.788046
+  },
+  {
+    "lieu": "Invalides-Pont Alexandre-III",
+    "longitude": 2.313578721233772,
+    "latitude": 48.863983310546395
+  },
+  {
+    "lieu": "Site d'escalade",
+    "longitude": 2.420467,
+    "latitude": 48.937188
+  },
+  {
+    "lieu": "Grand Palais",
+    "longitude": 2.3124059999999993,
+    "latitude": 48.866040999999996
+  },
+  {
+    "lieu": "Parc des Princes",
+    "longitude": 2.253076,
+    "latitude": 48.841319
+  },
+  {
+    "lieu": "Stade Geoffroy-Guichard",
+    "longitude": 4.388981968085903,
+    "latitude": 45.46182128952631
+  },
+  {
+    "lieu": "Stade de la Beaujoire",
+    "longitude": -1.5246671399573153,
+    "latitude": 47.25619781781882
+  },
+  {
+    "lieu": "Stade de Nice",
+    "longitude": 7.192,
+    "latitude": 43.72374737377557
+  },
+  {
+    "lieu": "Stade de Bordeaux",
+    "longitude": -0.5616003065920333,
+    "latitude": 44.89757555031454
+  },
+  {
+    "lieu": "Stade de Lyon",
+    "longitude": 4.982016535505663,
+    "latitude": 45.76548192859308
+  },
+  {
+    "lieu": "Stade de Marseille",
+    "longitude": 5.3958959506192485,
+    "latitude": 43.270082378237255
+  },
+  {
+    "lieu": "Golf national",
+    "longitude": 2.0759,
+    "latitude": 48.751095
+  },
+  {
+    "lieu": "Arena Paris Sud",
+    "longitude": 2.2904798629886454,
+    "latitude": 48.8301568270296
+  },
+  {
+    "lieu": "Stade Yves-du-Manoir",
+    "longitude": 2.249836,
+    "latitude": 48.930873
+  },
+  {
+    "lieu": "Arena Champ-de-Mars",
+    "longitude": 2.2978204,
+    "latitude": 48.85614459999999
+  },
+  {
+    "lieu": "Paris La Défense Arena",
+    "longitude": 2.2297100000000003,
+    "latitude": 48.89566
+  },
+  {
+    "lieu": "Centre aquatique",
+    "longitude": 2.355527,
+    "latitude": 48.923457
+  },
+  {
+    "lieu": "Pont Alexandre-III",
+    "longitude": 2.313578721233772,
+    "latitude": 48.863983310546395
+  },
+  {
+    "lieu": "Château de Versailles",
+    "longitude": 2.08208,
+    "latitude": 48.815115000000006
+  },
+  {
+    "lieu": "Teahupoo",
+    "longitude": -149.21607680428895,
+    "latitude": -17.843203943950556
+  },
+  {
+    "lieu": "Centre national de tir",
+    "longitude": 1.756653040073435,
+    "latitude": 46.8152813473871
+  },
+  {
+    "lieu": "Invalides",
+    "longitude": 2.3132219999999997,
+    "latitude": 48.862286
+  },
+  {
+    "lieu": "Marina de Marseille",
+    "longitude": 5.371538132484989,
+    "latitude": 43.2667858261485
+  },
+  {
+    "lieu": "Colline d'Elancourt",
+    "longitude": 1.9677759999999997,
+    "latitude": 48.78816200000001
+  },
+  {
+    "lieu": "Arena Paris Sud 1",
+    "longitude": 2.2904798629886454,
+    "latitude": 48.8301568270296
+  },
+  {
+    "lieu": "Stade Tour Eiffel",
+    "longitude": 2.296084,
+    "latitude": 48.857231999999996
+  },
+  {
+    "lieu": "Arena Paris Sud 6",
+    "longitude": 2.2904798629886454,
+    "latitude": 48.8301568270296
+  },
+  {
+    "lieu": "Stade nautique de Vaires-sur-Marne - Bassin eaux calmes",
+    "longitude": 2.636374,
+    "latitude": 48.862229
+  },
+  {
+    "lieu": "Vélodrome National de Saint-Quentin-en-Yvelines",
+    "longitude": 2.034987,
+    "latitude": 48.788046
+  },
+  {
+    "lieu": "Clichy-sous-Bois",
+    "longitude": 2.545883278930821,
+    "latitude": 48.91110877224836
+  },
+  {
+    "lieu": "Centre National de Tir de Châteauroux",
+    "longitude": 1.756653040073435,
+    "latitude": 46.8152813473871
+  },
+  {
+    "lieu": "Pont Alexandre III",
+    "longitude": 2.313578721233772,
+    "latitude": 48.863983310546395
+  }
+]

@@ -7,7 +7,10 @@ import { Chart, type EChartsOptions } from 'svelte-echarts'
 import jo_horraire_ville from '$lib/data/jo_horraire_ville.json';
 import dayjs from 'dayjs';
 import 'dayjs/locale/fr';
-
+import Carto from '$lib/home-partials/Carto.svelte';
+import { horaires_store } from '$lib/stores/stores';
+const timeCurrent = $horaires_store;
+console.log("timeCurrent",timeCurrent)
 dayjs.locale('fr');
 
 // Graph spectateur par lieu et par data
@@ -117,6 +120,8 @@ console.log("value_slider",value_slider);
   }
 
   function updateChartOptions() {
+    $horaires_store = horaires[value_slider];
+    console.log("New store",$horaires_store);
     const updatedOptions: EChartsOptions = {
       ...options, // Copier les options existantes
       yAxis: {
@@ -154,6 +159,9 @@ console.log("value_slider",value_slider);
       }
     }, 1000); // Délai d'une seconde
   } 
+
+
+  
 </script>
 
 <div class=' mx-4 lg:mx-12 '>
@@ -166,7 +174,7 @@ console.log("value_slider",value_slider);
 </h3>
 
 <p class="text-left"> Saviez-vous que seulement <span class="em-secondary" role="presentation">58 %</span> des sessions des jeux olympiques et paralympiques auront lieu à Paris ?</p>
-  <p class="text-left"> Et si vous deviez relier chaque site de compétition, il vous faudrait parcourir <span class="em-secondary" role="presentation">37 070 km</span>. En restant dans l'hexagone, le voyage serai de <span class="em-secondary" role="presentation">2 560 km</span>, ou l'équivalent de <span class="em-secondary" role="presentation">610 marathons</span>.
+  <p class="text-left"> Et si vous deviez relier chaque site de compétition, il vous faudrait parcourir <span class="em-secondary" role="presentation">37 070 km</span>. En restant dans l'hexagone, le voyage serait de <span class="em-secondary" role="presentation">2 560 km</span>, ou l'équivalent de <span class="em-secondary" role="presentation">610 marathons</span>.
     </div>
     <div class="card shadow-xl bg-secondary-50">
         <section class="p-4 flex items-center justify-center">
@@ -212,7 +220,7 @@ console.log("value_slider",value_slider);
 
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-center">
     <div class="card shadow-xl bg-secondary-50">
-        <img src="carto.svg" alt="Carto" style="max-height: 450px; width: auto;" />
+      <Carto />
     </div>
 <div class="card shadow-xl bg-secondary-50 h-screen sm:h-auto">
     <br/>

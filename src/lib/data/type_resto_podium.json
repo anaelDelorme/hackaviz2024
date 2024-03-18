@@ -1,0 +1,662 @@
+[
+  {
+    "lieu": "Arena Bercy",
+    "type": "Restauration rapide",
+    "pct": 37.7431906614786,
+    "place": 1
+  },
+  {
+    "lieu": "Arena Bercy",
+    "type": "Restauration traditionnelle",
+    "pct": 53.82619974059663,
+    "place": 2
+  },
+  {
+    "lieu": "Arena Bercy",
+    "type": "Débits de boissons",
+    "pct": 8.430609597924773,
+    "place": 3
+  },
+  {
+    "lieu": "Arena Champ-de-Mars",
+    "type": "Restauration rapide",
+    "pct": 32.62411347517731,
+    "place": 1
+  },
+  {
+    "lieu": "Arena Champ-de-Mars",
+    "type": "Restauration traditionnelle",
+    "pct": 61.41843971631206,
+    "place": 2
+  },
+  {
+    "lieu": "Arena Champ-de-Mars",
+    "type": "Débits de boissons",
+    "pct": 5.957446808510639,
+    "place": 3
+  },
+  {
+    "lieu": "Arena Paris Nord",
+    "type": "Restauration traditionnelle",
+    "pct": 30.434782608695656,
+    "place": 1
+  },
+  {
+    "lieu": "Arena Paris Nord",
+    "type": "Restauration rapide",
+    "pct": 69.56521739130434,
+    "place": 2
+  },
+  {
+    "lieu": "Arena Paris Sud",
+    "type": "Restauration rapide",
+    "pct": 34.24460431654676,
+    "place": 1
+  },
+  {
+    "lieu": "Arena Paris Sud",
+    "type": "Restauration traditionnelle",
+    "pct": 57.41007194244604,
+    "place": 2
+  },
+  {
+    "lieu": "Arena Paris Sud",
+    "type": "Débits de boissons",
+    "pct": 8.345323741007196,
+    "place": 3
+  },
+  {
+    "lieu": "Arena Paris Sud 1",
+    "type": "Restauration rapide",
+    "pct": 34.24460431654676,
+    "place": 1
+  },
+  {
+    "lieu": "Arena Paris Sud 1",
+    "type": "Restauration traditionnelle",
+    "pct": 57.41007194244604,
+    "place": 2
+  },
+  {
+    "lieu": "Arena Paris Sud 1",
+    "type": "Débits de boissons",
+    "pct": 8.345323741007196,
+    "place": 3
+  },
+  {
+    "lieu": "Arena Paris Sud 6",
+    "type": "Restauration rapide",
+    "pct": 34.24460431654676,
+    "place": 1
+  },
+  {
+    "lieu": "Arena Paris Sud 6",
+    "type": "Restauration traditionnelle",
+    "pct": 57.41007194244604,
+    "place": 2
+  },
+  {
+    "lieu": "Arena Paris Sud 6",
+    "type": "Débits de boissons",
+    "pct": 8.345323741007196,
+    "place": 3
+  },
+  {
+    "lieu": "Arena Porte de La Chapelle",
+    "type": "Restauration rapide",
+    "pct": 42.67650158061117,
+    "place": 1
+  },
+  {
+    "lieu": "Arena Porte de La Chapelle",
+    "type": "Restauration traditionnelle",
+    "pct": 46.99683877766069,
+    "place": 2
+  },
+  {
+    "lieu": "Arena Porte de La Chapelle",
+    "type": "Débits de boissons",
+    "pct": 10.326659641728135,
+    "place": 3
+  },
+  {
+    "lieu": "Centre aquatique",
+    "type": "Restauration traditionnelle",
+    "pct": 38.577586206896555,
+    "place": 1
+  },
+  {
+    "lieu": "Centre aquatique",
+    "type": "Restauration rapide",
+    "pct": 49.353448275862064,
+    "place": 2
+  },
+  {
+    "lieu": "Centre aquatique",
+    "type": "Débits de boissons",
+    "pct": 12.068965517241379,
+    "place": 3
+  },
+  {
+    "lieu": "Château de Versailles",
+    "type": "Restauration rapide",
+    "pct": 40,
+    "place": 1
+  },
+  {
+    "lieu": "Château de Versailles",
+    "type": "Restauration traditionnelle",
+    "pct": 60,
+    "place": 2
+  },
+  {
+    "lieu": "Clichy-sous-Bois",
+    "type": "Restauration traditionnelle",
+    "pct": 24.390243902439025,
+    "place": 1
+  },
+  {
+    "lieu": "Clichy-sous-Bois",
+    "type": "Restauration rapide",
+    "pct": 60.97560975609756,
+    "place": 2
+  },
+  {
+    "lieu": "Clichy-sous-Bois",
+    "type": "Débits de boissons",
+    "pct": 14.634146341463413,
+    "place": 3
+  },
+  {
+    "lieu": "Colline d'Elancourt",
+    "type": "Restauration traditionnelle",
+    "pct": 34.375,
+    "place": 1
+  },
+  {
+    "lieu": "Colline d'Elancourt",
+    "type": "Restauration rapide",
+    "pct": 62.5,
+    "place": 2
+  },
+  {
+    "lieu": "Colline d'Elancourt",
+    "type": "Débits de boissons",
+    "pct": 3.125,
+    "place": 3
+  },
+  {
+    "lieu": "Concorde",
+    "type": "Restauration rapide",
+    "pct": 37.555982085732566,
+    "place": 1
+  },
+  {
+    "lieu": "Concorde",
+    "type": "Restauration traditionnelle",
+    "pct": 55.88611644273832,
+    "place": 2
+  },
+  {
+    "lieu": "Concorde",
+    "type": "Débits de boissons",
+    "pct": 6.557901471529111,
+    "place": 3
+  },
+  {
+    "lieu": "Golf national",
+    "type": "Restauration rapide",
+    "pct": 25,
+    "place": 1
+  },
+  {
+    "lieu": "Golf national",
+    "type": "Restauration traditionnelle",
+    "pct": 75,
+    "place": 2
+  },
+  {
+    "lieu": "Grand Palais",
+    "type": "Restauration rapide",
+    "pct": 36.6412213740458,
+    "place": 1
+  },
+  {
+    "lieu": "Grand Palais",
+    "type": "Restauration traditionnelle",
+    "pct": 56.60907995178787,
+    "place": 2
+  },
+  {
+    "lieu": "Grand Palais",
+    "type": "Débits de boissons",
+    "pct": 6.749698674166332,
+    "place": 3
+  },
+  {
+    "lieu": "Hôtel de ville-Invalides",
+    "type": "Restauration rapide",
+    "pct": 32.20338983050847,
+    "place": 1
+  },
+  {
+    "lieu": "Hôtel de ville-Invalides",
+    "type": "Restauration traditionnelle",
+    "pct": 58.308981102669,
+    "place": 2
+  },
+  {
+    "lieu": "Hôtel de ville-Invalides",
+    "type": "Débits de boissons",
+    "pct": 9.487629066822521,
+    "place": 3
+  },
+  {
+    "lieu": "Invalides",
+    "type": "Restauration rapide",
+    "pct": 36.279500231374364,
+    "place": 1
+  },
+  {
+    "lieu": "Invalides",
+    "type": "Restauration traditionnelle",
+    "pct": 56.96436834798704,
+    "place": 2
+  },
+  {
+    "lieu": "Invalides",
+    "type": "Débits de boissons",
+    "pct": 6.756131420638593,
+    "place": 3
+  },
+  {
+    "lieu": "Invalides-Pont Alexandre-III",
+    "type": "Restauration rapide",
+    "pct": 36.434108527131784,
+    "place": 1
+  },
+  {
+    "lieu": "Invalides-Pont Alexandre-III",
+    "type": "Restauration traditionnelle",
+    "pct": 56.9563443492452,
+    "place": 2
+  },
+  {
+    "lieu": "Invalides-Pont Alexandre-III",
+    "type": "Débits de boissons",
+    "pct": 6.609547123623011,
+    "place": 3
+  },
+  {
+    "lieu": "Marina de Marseille",
+    "type": "Restauration rapide",
+    "pct": 35.08771929824561,
+    "place": 1
+  },
+  {
+    "lieu": "Marina de Marseille",
+    "type": "Restauration traditionnelle",
+    "pct": 56.14035087719298,
+    "place": 2
+  },
+  {
+    "lieu": "Marina de Marseille",
+    "type": "Débits de boissons",
+    "pct": 8.771929824561402,
+    "place": 3
+  },
+  {
+    "lieu": "Parc des Princes",
+    "type": "Restauration rapide",
+    "pct": 35.51020408163265,
+    "place": 1
+  },
+  {
+    "lieu": "Parc des Princes",
+    "type": "Restauration traditionnelle",
+    "pct": 60.40816326530612,
+    "place": 2
+  },
+  {
+    "lieu": "Parc des Princes",
+    "type": "Débits de boissons",
+    "pct": 4.081632653061225,
+    "place": 3
+  },
+  {
+    "lieu": "Paris La Défense Arena",
+    "type": "Restauration traditionnelle",
+    "pct": 43.05283757338552,
+    "place": 1
+  },
+  {
+    "lieu": "Paris La Défense Arena",
+    "type": "Restauration rapide",
+    "pct": 53.8160469667319,
+    "place": 2
+  },
+  {
+    "lieu": "Paris La Défense Arena",
+    "type": "Débits de boissons",
+    "pct": 3.131115459882583,
+    "place": 3
+  },
+  {
+    "lieu": "Pont Alexandre-III",
+    "type": "Restauration rapide",
+    "pct": 36.434108527131784,
+    "place": 1
+  },
+  {
+    "lieu": "Pont Alexandre-III",
+    "type": "Restauration traditionnelle",
+    "pct": 56.9563443492452,
+    "place": 2
+  },
+  {
+    "lieu": "Pont Alexandre-III",
+    "type": "Débits de boissons",
+    "pct": 6.609547123623011,
+    "place": 3
+  },
+  {
+    "lieu": "Site d'escalade",
+    "type": "Restauration traditionnelle",
+    "pct": 42.331288343558285,
+    "place": 1
+  },
+  {
+    "lieu": "Site d'escalade",
+    "type": "Restauration rapide",
+    "pct": 44.171779141104295,
+    "place": 2
+  },
+  {
+    "lieu": "Site d'escalade",
+    "type": "Débits de boissons",
+    "pct": 13.496932515337424,
+    "place": 3
+  },
+  {
+    "lieu": "Stade BMX",
+    "type": "Restauration traditionnelle",
+    "pct": 42.63565891472868,
+    "place": 1
+  },
+  {
+    "lieu": "Stade BMX",
+    "type": "Restauration rapide",
+    "pct": 54.263565891472865,
+    "place": 2
+  },
+  {
+    "lieu": "Stade BMX",
+    "type": "Débits de boissons",
+    "pct": 3.10077519379845,
+    "place": 3
+  },
+  {
+    "lieu": "Stade de Bordeaux",
+    "type": "Restauration rapide",
+    "pct": 28.57142857142857,
+    "place": 1
+  },
+  {
+    "lieu": "Stade de Bordeaux",
+    "type": "Restauration traditionnelle",
+    "pct": 71.42857142857143,
+    "place": 2
+  },
+  {
+    "lieu": "Stade de France",
+    "type": "Restauration traditionnelle",
+    "pct": 38.52813852813853,
+    "place": 1
+  },
+  {
+    "lieu": "Stade de France",
+    "type": "Restauration rapide",
+    "pct": 49.134199134199136,
+    "place": 2
+  },
+  {
+    "lieu": "Stade de France",
+    "type": "Débits de boissons",
+    "pct": 12.337662337662337,
+    "place": 3
+  },
+  {
+    "lieu": "Stade de la Beaujoire",
+    "type": "Restauration traditionnelle",
+    "pct": 30,
+    "place": 1
+  },
+  {
+    "lieu": "Stade de la Beaujoire",
+    "type": "Restauration rapide",
+    "pct": 67.5,
+    "place": 2
+  },
+  {
+    "lieu": "Stade de la Beaujoire",
+    "type": "Débits de boissons",
+    "pct": 2.5,
+    "place": 3
+  },
+  {
+    "lieu": "Stade de Lyon",
+    "type": "Restauration traditionnelle",
+    "pct": 30.909090909090907,
+    "place": 1
+  },
+  {
+    "lieu": "Stade de Lyon",
+    "type": "Restauration rapide",
+    "pct": 58.18181818181818,
+    "place": 2
+  },
+  {
+    "lieu": "Stade de Lyon",
+    "type": "Débits de boissons",
+    "pct": 10.909090909090908,
+    "place": 3
+  },
+  {
+    "lieu": "Stade de Marseille",
+    "type": "Restauration traditionnelle",
+    "pct": 38.97435897435898,
+    "place": 1
+  },
+  {
+    "lieu": "Stade de Marseille",
+    "type": "Restauration rapide",
+    "pct": 50.51282051282051,
+    "place": 2
+  },
+  {
+    "lieu": "Stade de Marseille",
+    "type": "Débits de boissons",
+    "pct": 10.512820512820513,
+    "place": 3
+  },
+  {
+    "lieu": "Stade de Nice",
+    "type": "Restauration traditionnelle",
+    "pct": 34,
+    "place": 1
+  },
+  {
+    "lieu": "Stade de Nice",
+    "type": "Restauration rapide",
+    "pct": 60,
+    "place": 2
+  },
+  {
+    "lieu": "Stade de Nice",
+    "type": "Débits de boissons",
+    "pct": 6,
+    "place": 3
+  },
+  {
+    "lieu": "Stade Geoffroy-Guichard",
+    "type": "Restauration traditionnelle",
+    "pct": 34.61538461538461,
+    "place": 1
+  },
+  {
+    "lieu": "Stade Geoffroy-Guichard",
+    "type": "Restauration rapide",
+    "pct": 51.28205128205128,
+    "place": 2
+  },
+  {
+    "lieu": "Stade Geoffroy-Guichard",
+    "type": "Débits de boissons",
+    "pct": 14.102564102564102,
+    "place": 3
+  },
+  {
+    "lieu": "Stade nautique de Vaires-sur-Marne - Bassin eaux calmes",
+    "type": "Restauration rapide",
+    "pct": 43.90243902439025,
+    "place": 1
+  },
+  {
+    "lieu": "Stade nautique de Vaires-sur-Marne - Bassin eaux calmes",
+    "type": "Restauration traditionnelle",
+    "pct": 48.78048780487805,
+    "place": 2
+  },
+  {
+    "lieu": "Stade nautique de Vaires-sur-Marne - Bassin eaux calmes",
+    "type": "Débits de boissons",
+    "pct": 7.317073170731707,
+    "place": 3
+  },
+  {
+    "lieu": "Stade nautique-Bassin eau vive",
+    "type": "Restauration rapide",
+    "pct": 43.90243902439025,
+    "place": 1
+  },
+  {
+    "lieu": "Stade nautique-Bassin eau vive",
+    "type": "Restauration traditionnelle",
+    "pct": 48.78048780487805,
+    "place": 2
+  },
+  {
+    "lieu": "Stade nautique-Bassin eau vive",
+    "type": "Débits de boissons",
+    "pct": 7.317073170731707,
+    "place": 3
+  },
+  {
+    "lieu": "Stade Pierre-Mauroy",
+    "type": "Restauration traditionnelle",
+    "pct": 44.52054794520548,
+    "place": 1
+  },
+  {
+    "lieu": "Stade Pierre-Mauroy",
+    "type": "Restauration rapide",
+    "pct": 52.73972602739726,
+    "place": 2
+  },
+  {
+    "lieu": "Stade Pierre-Mauroy",
+    "type": "Débits de boissons",
+    "pct": 2.73972602739726,
+    "place": 3
+  },
+  {
+    "lieu": "Stade Roland-Garros",
+    "type": "Restauration rapide",
+    "pct": 38.297872340425535,
+    "place": 1
+  },
+  {
+    "lieu": "Stade Roland-Garros",
+    "type": "Restauration traditionnelle",
+    "pct": 59.57446808510638,
+    "place": 2
+  },
+  {
+    "lieu": "Stade Roland-Garros",
+    "type": "Débits de boissons",
+    "pct": 2.127659574468085,
+    "place": 3
+  },
+  {
+    "lieu": "Stade tour Eiffel",
+    "type": "Restauration rapide",
+    "pct": 34.31241655540721,
+    "place": 1
+  },
+  {
+    "lieu": "Stade tour Eiffel",
+    "type": "Restauration traditionnelle",
+    "pct": 60.08010680907877,
+    "place": 2
+  },
+  {
+    "lieu": "Stade tour Eiffel",
+    "type": "Débits de boissons",
+    "pct": 5.607476635514018,
+    "place": 3
+  },
+  {
+    "lieu": "Stade Yves-du-Manoir",
+    "type": "Restauration traditionnelle",
+    "pct": 41.911764705882355,
+    "place": 1
+  },
+  {
+    "lieu": "Stade Yves-du-Manoir",
+    "type": "Restauration rapide",
+    "pct": 50.73529411764706,
+    "place": 2
+  },
+  {
+    "lieu": "Stade Yves-du-Manoir",
+    "type": "Débits de boissons",
+    "pct": 7.352941176470589,
+    "place": 3
+  },
+  {
+    "lieu": "Trocadéro",
+    "type": "Restauration rapide",
+    "pct": 34.51676528599605,
+    "place": 1
+  },
+  {
+    "lieu": "Trocadéro",
+    "type": "Restauration traditionnelle",
+    "pct": 60.02629848783695,
+    "place": 2
+  },
+  {
+    "lieu": "Trocadéro",
+    "type": "Débits de boissons",
+    "pct": 5.456936226166995,
+    "place": 3
+  },
+  {
+    "lieu": "Vélodrome national",
+    "type": "Restauration traditionnelle",
+    "pct": 42.63565891472868,
+    "place": 1
+  },
+  {
+    "lieu": "Vélodrome national",
+    "type": "Restauration rapide",
+    "pct": 54.263565891472865,
+    "place": 2
+  },
+  {
+    "lieu": "Vélodrome national",
+    "type": "Débits de boissons",
+    "pct": 3.10077519379845,
+    "place": 3
+  }
+]

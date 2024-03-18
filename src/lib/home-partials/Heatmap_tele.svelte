@@ -34,42 +34,9 @@ let days: string[] = Array.from(days_set).reverse();
 
 console.log(days);  
 // prettier-ignore
-const data: number[][] = [];
+let data: number[][] = [];
 
-for (const day of days) {
-  for (const hour of hours) {
-const count = filteredArray.filter(
-    (item: any) => item.jour_semaine === day && item.heure_unique === hour
-  ).length;
 
-    data.push([hours.indexOf(hour), days.indexOf(day), count]);
-  }
-}
-
-data.map(function (item) {
-    return [item[1], item[0], item[2] || '-'];
-});
-
-const max = data.reduce((maxCount: number, item: number[]) => {
-  return Math.max(maxCount, item[2]);
-}, 0);
-import { afterUpdate } from 'svelte';
-let colors: number[] = [];
-afterUpdate(() => {
-    const body = document.body;
-    const bgColor = getComputedStyle(body).backgroundColor;
-    const [r, g, b] = bgColor.match(/\d+/g).map(Number);
-
-    for (let i = 0; i <= 1; i += 0.1) {
-      const newR = Math.round(r * (1 - i));
-      const newG = Math.round(g * (1 - i));
-      const newB = Math.round(b * (1 - i));
-      colors.push([newR, newG, newB]);
-    }
-
-    console.log("COLORS", colors);
-  });
-console.log("COLORS", colors);
 const color_gradient: string[] = [];
 const n = 11; // Nombre de couleurs à générer
 
@@ -81,16 +48,45 @@ for (let i = 0; i < n; i++) {
   color_gradient.push(`rgb(${r}, ${g}, ${b})`); // Ajouter la couleur au tableau
 }
 console.log(color_gradient)
-let options: EChartsOptions ;
-
+let options: EChartsOptions;
 $: {
+    data=[];
+    let max: number = 0;
+
       const currentGame = $selectedGame;
-    const filteredData = heatmap_data.filter(d =>
+    const filteredHeatmap = heatmap_data.filter(d =>
     currentGame === 'Jeux Olympiques' ? d.Jeux === 'Olympiques' :
     currentGame === 'Jeux Paralympiques' ? d.Jeux === 'Paralympiques' :
     true
   );
-  options = { 
+  days_set.clear();
+  filteredHeatmap.forEach((item: any) => {
+    
+    days_set.add(item.jour_semaine);
+  });
+  console.log("YOO",filteredHeatmap);
+  let days: string[] = Array.from(days_set).reverse();
+    console.log("YOO",days);
+
+for (const day of days) {
+  for (const hour of hours) {
+const count = filteredHeatmap.filter(
+    (item: any) => item.jour_semaine === day && item.heure_unique === hour
+  ).length;
+
+    data.push([hours.indexOf(hour), days.indexOf(day), count]);
+  }
+}
+
+data.map(function (item) {
+    return [item[1], item[0], item[2] || '-'];
+});
+
+max = data.reduce((maxCount: number, item: number[]) => {
+  return Math.max(maxCount, item[2]);
+}, 0);
+
+   options= { 
   tooltip: {
     position: 'top'
   },
@@ -140,7 +136,9 @@ $: {
     }
   ]
 };
-}
+  }
+   
+  const selectedGame_heatmap = writable('Jeux Olympiques');
     const activités = () => {
         const uniqueDisciplines = new Set(filteredArray.map(d => d.Activité));
         return Array.from(uniqueDisciplines);
@@ -158,15 +156,15 @@ $: {
       <div class="card shadow-xl h-96 md:h-96 mt-2">
   
         <br/>
-        <div class="flex flex-col md:flex-row justify-center space-x-4">
+        <div class="flex flex-col-2 justify-center space-x-4">
           <button class="btn bg-surface-300" on:click={() => ($selectedGame = "Jeux Olympiques")}>Jeux Olympiques</button>
           <button class="btn bg-surface-300" on:click={() => ($selectedGame ='Jeux Paralympiques')}>Jeux Paralympiques</button>
-           <select class="btn bg-surface-300 border-0 font-bold focus:outline-none focus:bg-white focus:border-gray-500">
+         <!--  <select class="btn bg-surface-300 border-0 font-bold focus:outline-none focus:bg-white focus:border-gray-500">
               <option value="" disabled selected>Filtrer selon vos préférences</option>
             {#each activités() as activité}
               <option value={activité}>{activité}</option>
             {/each}
-    </select>
+    </select>-->
         </div>
   
         <Chart {options} />

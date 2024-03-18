@@ -1,0 +1,686 @@
+[
+  {
+    "lieu": "Arena Bercy",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 6.809338521400778,
+    "place": 1
+  },
+  {
+    "lieu": "Arena Bercy",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 7.782101167315175,
+    "place": 2
+  },
+  {
+    "lieu": "Arena Bercy",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 3.3073929961089497,
+    "place": 3
+  },
+  {
+    "lieu": "Arena Champ-de-Mars",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 5.74468085106383,
+    "place": 1
+  },
+  {
+    "lieu": "Arena Champ-de-Mars",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 8.01418439716312,
+    "place": 2
+  },
+  {
+    "lieu": "Arena Champ-de-Mars",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 2.553191489361702,
+    "place": 3
+  },
+  {
+    "lieu": "Arena Paris Nord",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 8.695652173913043,
+    "place": 1
+  },
+  {
+    "lieu": "Arena Paris Nord",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 13.043478260869565,
+    "place": 2
+  },
+  {
+    "lieu": "Arena Paris Nord",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 4.3478260869565215,
+    "place": 3
+  },
+  {
+    "lieu": "Arena Paris Sud",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 6.18705035971223,
+    "place": 1
+  },
+  {
+    "lieu": "Arena Paris Sud",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 7.913669064748201,
+    "place": 2
+  },
+  {
+    "lieu": "Arena Paris Sud",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 3.0215827338129495,
+    "place": 3
+  },
+  {
+    "lieu": "Arena Paris Sud 1",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 6.18705035971223,
+    "place": 1
+  },
+  {
+    "lieu": "Arena Paris Sud 1",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 7.913669064748201,
+    "place": 2
+  },
+  {
+    "lieu": "Arena Paris Sud 1",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 3.0215827338129495,
+    "place": 3
+  },
+  {
+    "lieu": "Arena Paris Sud 6",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 6.18705035971223,
+    "place": 1
+  },
+  {
+    "lieu": "Arena Paris Sud 6",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 7.913669064748201,
+    "place": 2
+  },
+  {
+    "lieu": "Arena Paris Sud 6",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 3.0215827338129495,
+    "place": 3
+  },
+  {
+    "lieu": "Arena Porte de La Chapelle",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 5.900948366701791,
+    "place": 1
+  },
+  {
+    "lieu": "Arena Porte de La Chapelle",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 6.42781875658588,
+    "place": 2
+  },
+  {
+    "lieu": "Arena Porte de La Chapelle",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 3.5827186512118017,
+    "place": 3
+  },
+  {
+    "lieu": "Centre aquatique",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 6.25,
+    "place": 1
+  },
+  {
+    "lieu": "Centre aquatique",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 10.775862068965516,
+    "place": 2
+  },
+  {
+    "lieu": "Centre aquatique",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 3.2327586206896552,
+    "place": 3
+  },
+  {
+    "lieu": "Château de Versailles",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 0,
+    "place": 1
+  },
+  {
+    "lieu": "Château de Versailles",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 60,
+    "place": 2
+  },
+  {
+    "lieu": "Château de Versailles",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 0,
+    "place": 3
+  },
+  {
+    "lieu": "Clichy-sous-Bois",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 9.146341463414634,
+    "place": 1
+  },
+  {
+    "lieu": "Clichy-sous-Bois",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 13.414634146341465,
+    "place": 2
+  },
+  {
+    "lieu": "Clichy-sous-Bois",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 6.707317073170732,
+    "place": 3
+  },
+  {
+    "lieu": "Colline d'Elancourt",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 18.75,
+    "place": 1
+  },
+  {
+    "lieu": "Colline d'Elancourt",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 18.75,
+    "place": 2
+  },
+  {
+    "lieu": "Colline d'Elancourt",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 3.125,
+    "place": 3
+  },
+  {
+    "lieu": "Concorde",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 5.2463211772232885,
+    "place": 1
+  },
+  {
+    "lieu": "Concorde",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 8.54126679462572,
+    "place": 2
+  },
+  {
+    "lieu": "Concorde",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 2.6871401151631478,
+    "place": 3
+  },
+  {
+    "lieu": "Golf national",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 25,
+    "place": 1
+  },
+  {
+    "lieu": "Golf national",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 25,
+    "place": 2
+  },
+  {
+    "lieu": "Golf national",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 0,
+    "place": 3
+  },
+  {
+    "lieu": "Grand Palais",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 5.142627561269586,
+    "place": 1
+  },
+  {
+    "lieu": "Grand Palais",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 7.955002008838891,
+    "place": 2
+  },
+  {
+    "lieu": "Grand Palais",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 2.7320208919244675,
+    "place": 3
+  },
+  {
+    "lieu": "Hôtel de ville-Invalides",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 4.578219364893824,
+    "place": 1
+  },
+  {
+    "lieu": "Hôtel de ville-Invalides",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 6.954997077732321,
+    "place": 2
+  },
+  {
+    "lieu": "Hôtel de ville-Invalides",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 2.08455094486655,
+    "place": 3
+  },
+  {
+    "lieu": "Invalides",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 4.673762147154095,
+    "place": 1
+  },
+  {
+    "lieu": "Invalides",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 8.190652475705692,
+    "place": 2
+  },
+  {
+    "lieu": "Invalides",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 2.4525682554372974,
+    "place": 3
+  },
+  {
+    "lieu": "Invalides-Pont Alexandre-III",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 4.977560179518563,
+    "place": 1
+  },
+  {
+    "lieu": "Invalides-Pont Alexandre-III",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 8.119135046919626,
+    "place": 2
+  },
+  {
+    "lieu": "Invalides-Pont Alexandre-III",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 2.570379436964504,
+    "place": 3
+  },
+  {
+    "lieu": "Marina de Marseille",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 2.631578947368421,
+    "place": 1
+  },
+  {
+    "lieu": "Marina de Marseille",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 3.508771929824561,
+    "place": 2
+  },
+  {
+    "lieu": "Marina de Marseille",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 1.7543859649122806,
+    "place": 3
+  },
+  {
+    "lieu": "Parc des Princes",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 5.3061224489795915,
+    "place": 1
+  },
+  {
+    "lieu": "Parc des Princes",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 6.938775510204081,
+    "place": 2
+  },
+  {
+    "lieu": "Parc des Princes",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 4.081632653061225,
+    "place": 3
+  },
+  {
+    "lieu": "Paris La Défense Arena",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 7.632093933463796,
+    "place": 1
+  },
+  {
+    "lieu": "Paris La Défense Arena",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 8.610567514677104,
+    "place": 2
+  },
+  {
+    "lieu": "Paris La Défense Arena",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 7.436399217221135,
+    "place": 3
+  },
+  {
+    "lieu": "Pont Alexandre-III",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 4.977560179518563,
+    "place": 1
+  },
+  {
+    "lieu": "Pont Alexandre-III",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 8.119135046919626,
+    "place": 2
+  },
+  {
+    "lieu": "Pont Alexandre-III",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 2.570379436964504,
+    "place": 3
+  },
+  {
+    "lieu": "Site d'escalade",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 4.9079754601226995,
+    "place": 1
+  },
+  {
+    "lieu": "Site d'escalade",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 13.496932515337424,
+    "place": 2
+  },
+  {
+    "lieu": "Site d'escalade",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 4.294478527607362,
+    "place": 3
+  },
+  {
+    "lieu": "Stade BMX",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 10.077519379844961,
+    "place": 1
+  },
+  {
+    "lieu": "Stade BMX",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 12.4031007751938,
+    "place": 2
+  },
+  {
+    "lieu": "Stade BMX",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 3.875968992248062,
+    "place": 3
+  },
+  {
+    "lieu": "Stade de Bordeaux",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 0,
+    "place": 1
+  },
+  {
+    "lieu": "Stade de Bordeaux",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 0,
+    "place": 2
+  },
+  {
+    "lieu": "Stade de Bordeaux",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 0,
+    "place": 3
+  },
+  {
+    "lieu": "Stade de France",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 6.70995670995671,
+    "place": 1
+  },
+  {
+    "lieu": "Stade de France",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 9.956709956709958,
+    "place": 2
+  },
+  {
+    "lieu": "Stade de France",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 3.67965367965368,
+    "place": 3
+  },
+  {
+    "lieu": "Stade de la Beaujoire",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 7.5,
+    "place": 1
+  },
+  {
+    "lieu": "Stade de la Beaujoire",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 25,
+    "place": 2
+  },
+  {
+    "lieu": "Stade de la Beaujoire",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 5,
+    "place": 3
+  },
+  {
+    "lieu": "Stade de Lyon",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 5.454545454545454,
+    "place": 1
+  },
+  {
+    "lieu": "Stade de Lyon",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 14.545454545454545,
+    "place": 2
+  },
+  {
+    "lieu": "Stade de Lyon",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 3.6363636363636362,
+    "place": 3
+  },
+  {
+    "lieu": "Stade de Marseille",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 5.384615384615385,
+    "place": 1
+  },
+  {
+    "lieu": "Stade de Marseille",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 8.717948717948717,
+    "place": 2
+  },
+  {
+    "lieu": "Stade de Marseille",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 4.871794871794872,
+    "place": 3
+  },
+  {
+    "lieu": "Stade de Nice",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 4,
+    "place": 1
+  },
+  {
+    "lieu": "Stade de Nice",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 12,
+    "place": 2
+  },
+  {
+    "lieu": "Stade de Nice",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 4,
+    "place": 3
+  },
+  {
+    "lieu": "Stade Geoffroy-Guichard",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 6.41025641025641,
+    "place": 1
+  },
+  {
+    "lieu": "Stade Geoffroy-Guichard",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 8.974358974358974,
+    "place": 2
+  },
+  {
+    "lieu": "Stade Geoffroy-Guichard",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 6.41025641025641,
+    "place": 3
+  },
+  {
+    "lieu": "Stade nautique de Vaires-sur-Marne - Bassin eaux calmes",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 4.878048780487805,
+    "place": 1
+  },
+  {
+    "lieu": "Stade nautique de Vaires-sur-Marne - Bassin eaux calmes",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 4.878048780487805,
+    "place": 2
+  },
+  {
+    "lieu": "Stade nautique de Vaires-sur-Marne - Bassin eaux calmes",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 2.4390243902439024,
+    "place": 3
+  },
+  {
+    "lieu": "Stade nautique-Bassin eau vive",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 4.878048780487805,
+    "place": 1
+  },
+  {
+    "lieu": "Stade nautique-Bassin eau vive",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 4.878048780487805,
+    "place": 2
+  },
+  {
+    "lieu": "Stade nautique-Bassin eau vive",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 2.4390243902439024,
+    "place": 3
+  },
+  {
+    "lieu": "Stade Pierre-Mauroy",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 11.643835616438356,
+    "place": 1
+  },
+  {
+    "lieu": "Stade Pierre-Mauroy",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 16.43835616438356,
+    "place": 2
+  },
+  {
+    "lieu": "Stade Pierre-Mauroy",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 7.534246575342466,
+    "place": 3
+  },
+  {
+    "lieu": "Stade Roland-Garros",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 5.673758865248227,
+    "place": 1
+  },
+  {
+    "lieu": "Stade Roland-Garros",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 6.382978723404255,
+    "place": 2
+  },
+  {
+    "lieu": "Stade Roland-Garros",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 4.25531914893617,
+    "place": 3
+  },
+  {
+    "lieu": "Stade tour Eiffel",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 5.540720961281709,
+    "place": 1
+  },
+  {
+    "lieu": "Stade tour Eiffel",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 8.210947930574099,
+    "place": 2
+  },
+  {
+    "lieu": "Stade tour Eiffel",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 2.53671562082777,
+    "place": 3
+  },
+  {
+    "lieu": "Stade Yves-du-Manoir",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 5.147058823529411,
+    "place": 1
+  },
+  {
+    "lieu": "Stade Yves-du-Manoir",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 8.088235294117647,
+    "place": 2
+  },
+  {
+    "lieu": "Stade Yves-du-Manoir",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 3.6764705882352944,
+    "place": 3
+  },
+  {
+    "lieu": "Trocadéro",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 5.851413543721236,
+    "place": 1
+  },
+  {
+    "lieu": "Trocadéro",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 7.758053911900066,
+    "place": 2
+  },
+  {
+    "lieu": "Trocadéro",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 2.7613412228796843,
+    "place": 3
+  },
+  {
+    "lieu": "Vélodrome national",
+    "type": "Junk food :\nMcDo, KFC, Burger King...",
+    "pct": 10.077519379844961,
+    "place": 1
+  },
+  {
+    "lieu": "Vélodrome national",
+    "type": "Cuisine du monde  :\npizzas, tacos, sushis, bagel, latino...",
+    "pct": 12.4031007751938,
+    "place": 2
+  },
+  {
+    "lieu": "Vélodrome national",
+    "type": "Cuisine française :\nbrasserie, café, auberge...",
+    "pct": 3.875968992248062,
+    "place": 3
+  }
+]
