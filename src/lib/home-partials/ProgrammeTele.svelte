@@ -46,7 +46,7 @@ import { selectedGame } from '$lib/stores/stores';
         grid: {
           left: '3%',
           right: '3%',
-          bottom: '20%',
+          bottom: '27%',
           containLabel: true,
           height: "70%"
         },
@@ -84,13 +84,13 @@ import { selectedGame } from '$lib/stores/stores';
     </p>
     <div class="grid grid-cols-1 gap-4 text-center">
       <div class="card shadow-xl h-96 md:h-96 mt-8">
-  
+        
         <br/>
-        <div class="flex justify-center space-x-4">
+        <div class="flex justify-center space-x-4 mb-2">
           <button class="btn bg-surface-300" on:click={() => ($selectedGame = "Jeux Olympiques")}>Jeux Olympiques</button>
           <button class="btn bg-surface-300" on:click={() => ($selectedGame ='Jeux Paralympiques')}>Jeux Paralympiques</button>
         </div>
-  
+        <p>Part de sessions en prime time par discipline</p>
         <Chart {options} />
   
       </div>
